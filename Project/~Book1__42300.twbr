@@ -1,0 +1,2186 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20233.23.1017.0948                               -->
+<workbook original-version='18.1' source-build='2023.3.0 (20233.23.1017.0948)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelRelationshipPerfOptions.true...ObjectModelRelationshipPerfOptions />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='courseSiteVisit+ (ADTAssignment2)' inline='true' name='federated.1p8y69m0ksjgci14v6nem16o0ltc' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='NIHARIKA' name='sqlserver.01kcvh30uoqogu1bp26pf0mxxvhn'>
+            <connection authentication='sspi' class='sqlserver' dbname='KaranADTAssignment2' minimum-driver-version='SQL Server Native Client 10.0' odbc-native-protocol='yes' one-time-sql='' server='NIHARIKA' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='sqlserver.01kcvh30uoqogu1bp26pf0mxxvhn' name='Custom SQL Query1' type='text'>SELECT c.courseID, COUNT(cv.visitID) as totalVisits&#13;
+FROM depCourse c&#13;
+LEFT JOIN courseSiteVisit cv ON c.courseID = cv.courseID&#13;
+GROUP BY c.courseID</_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation type='collection'>
+          <relation connection='sqlserver.01kcvh30uoqogu1bp26pf0mxxvhn' name='courseSiteVisit' table='[dbo].[courseSiteVisit]' type='table' />
+          <relation connection='sqlserver.01kcvh30uoqogu1bp26pf0mxxvhn' name='Custom SQL Query1' type='text'>SELECT c.courseID, COUNT(cv.visitID) as totalVisits&#13;
+FROM depCourse c&#13;
+LEFT JOIN courseSiteVisit cv ON c.courseID = cv.courseID&#13;
+GROUP BY c.courseID</relation>
+          <relation connection='sqlserver.01kcvh30uoqogu1bp26pf0mxxvhn' name='Custom SQL Query2' type='text'>SELECT p.name as program, c.courseID, COUNT(cv.visitID) as totalVisits&#13;
+FROM program p&#13;
+JOIN depCourse c ON p.programID = c.programID&#13;
+LEFT JOIN courseSiteVisit cv ON c.courseID = cv.courseID&#13;
+GROUP BY p.name, c.courseID</relation>
+          <relation connection='sqlserver.01kcvh30uoqogu1bp26pf0mxxvhn' name='Custom SQL Query3' type='text'>SELECT p.name as program, d.deptName, COUNT(DISTINCT cv.userID) as uniqueVisitors&#13;
+FROM program p&#13;
+JOIN depCourse d ON p.programID = d.programID&#13;
+LEFT JOIN courseSiteVisit cv ON d.courseID = cv.courseID&#13;
+GROUP BY p.name, d.deptName</relation>
+          <relation connection='sqlserver.01kcvh30uoqogu1bp26pf0mxxvhn' name='Custom SQL Query5' type='text'>SELECT courseID, userID, MAX(date) as lastVisitDate&#13;
+FROM courseSiteVisit&#13;
+GROUP BY courseID, userID</relation>
+          <relation connection='sqlserver.01kcvh30uoqogu1bp26pf0mxxvhn' name='Custom SQL Query' type='text'>SELECT * FROM depCourse</relation>
+          <relation connection='sqlserver.01kcvh30uoqogu1bp26pf0mxxvhn' name='Custom SQL Query4' type='text'>SELECT courseID, userID, COUNT(visitID) as visitCount&#13;
+FROM courseSiteVisit&#13;
+GROUP BY courseID, userID</relation>
+          <relation connection='sqlserver.01kcvh30uoqogu1bp26pf0mxxvhn' name='depCourse' table='[dbo].[depCourse]' type='table' />
+          <relation connection='sqlserver.01kcvh30uoqogu1bp26pf0mxxvhn' name='program' table='[dbo].[program]' type='table' />
+          <relation connection='sqlserver.01kcvh30uoqogu1bp26pf0mxxvhn' name='users' table='[dbo].[users]' type='table' />
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <cols>
+          <map key='[courseID (Custom SQL Query)]' value='[Custom SQL Query].[courseID]' />
+          <map key='[courseID (Custom SQL Query1)]' value='[Custom SQL Query1].[courseID]' />
+          <map key='[courseID (Custom SQL Query2)]' value='[Custom SQL Query2].[courseID]' />
+          <map key='[courseID (Custom SQL Query4)]' value='[Custom SQL Query4].[courseID]' />
+          <map key='[courseID (Custom SQL Query5)]' value='[Custom SQL Query5].[courseID]' />
+          <map key='[courseID (depCourse)]' value='[depCourse].[courseID]' />
+          <map key='[courseID]' value='[courseSiteVisit].[courseID]' />
+          <map key='[date]' value='[courseSiteVisit].[date]' />
+          <map key='[deptName (Custom SQL Query)]' value='[Custom SQL Query].[deptName]' />
+          <map key='[deptName (Custom SQL Query3)]' value='[Custom SQL Query3].[deptName]' />
+          <map key='[deptName]' value='[depCourse].[deptName]' />
+          <map key='[lastVisitDate]' value='[Custom SQL Query5].[lastVisitDate]' />
+          <map key='[name]' value='[program].[name]' />
+          <map key='[program (Custom SQL Query3)]' value='[Custom SQL Query3].[program]' />
+          <map key='[programID (Custom SQL Query)]' value='[Custom SQL Query].[programID]' />
+          <map key='[programID (depCourse)]' value='[depCourse].[programID]' />
+          <map key='[programID (program)]' value='[program].[programID]' />
+          <map key='[programID]' value='[users].[programID]' />
+          <map key='[program]' value='[Custom SQL Query2].[program]' />
+          <map key='[totalVisits (Custom SQL Query2)]' value='[Custom SQL Query2].[totalVisits]' />
+          <map key='[totalVisits]' value='[Custom SQL Query1].[totalVisits]' />
+          <map key='[uniqueVisitors]' value='[Custom SQL Query3].[uniqueVisitors]' />
+          <map key='[userID (Custom SQL Query4)]' value='[Custom SQL Query4].[userID]' />
+          <map key='[userID (Custom SQL Query5)]' value='[Custom SQL Query5].[userID]' />
+          <map key='[userID (users)]' value='[users].[userID]' />
+          <map key='[userID]' value='[courseSiteVisit].[userID]' />
+          <map key='[visitCount]' value='[Custom SQL Query4].[visitCount]' />
+          <map key='[visitID]' value='[courseSiteVisit].[visitID]' />
+        </cols>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>visitID</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[visitID]</local-name>
+            <parent-name>[courseSiteVisit]</parent-name>
+            <remote-alias>visitID</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[courseSiteVisit_28639934EC1C429797EC046BCADD78FE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>courseID</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[courseID]</local-name>
+            <parent-name>[courseSiteVisit]</parent-name>
+            <remote-alias>courseID</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[courseSiteVisit_28639934EC1C429797EC046BCADD78FE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>userID</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[userID]</local-name>
+            <parent-name>[courseSiteVisit]</parent-name>
+            <remote-alias>userID</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[courseSiteVisit_28639934EC1C429797EC046BCADD78FE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[date]</local-name>
+            <parent-name>[courseSiteVisit]</parent-name>
+            <remote-alias>date</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_DATE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_DATE&quot;</attribute>
+              <attribute datatype='boolean' name='TypeIsDateTime2orDate'>true</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[courseSiteVisit_28639934EC1C429797EC046BCADD78FE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>courseID</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[courseID (Custom SQL Query1)]</local-name>
+            <parent-name>[Custom SQL Query1]</parent-name>
+            <remote-alias>courseID</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[_40E453CA16C44FA08B312522BC51EFDD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>totalVisits</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[totalVisits]</local-name>
+            <parent-name>[Custom SQL Query1]</parent-name>
+            <remote-alias>totalVisits</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[_40E453CA16C44FA08B312522BC51EFDD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>program</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[program]</local-name>
+            <parent-name>[Custom SQL Query2]</parent-name>
+            <remote-alias>program</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='2147483649' name='LEN_RUS_S2_VWIN' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[_770B13004A4C486F811726CBD85D6A2C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>courseID</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[courseID (Custom SQL Query2)]</local-name>
+            <parent-name>[Custom SQL Query2]</parent-name>
+            <remote-alias>courseID</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[_770B13004A4C486F811726CBD85D6A2C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>totalVisits</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[totalVisits (Custom SQL Query2)]</local-name>
+            <parent-name>[Custom SQL Query2]</parent-name>
+            <remote-alias>totalVisits</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[_770B13004A4C486F811726CBD85D6A2C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>program</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[program (Custom SQL Query3)]</local-name>
+            <parent-name>[Custom SQL Query3]</parent-name>
+            <remote-alias>program</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='2147483649' name='LEN_RUS_S2_VWIN' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[_EED9E13083994FF58B6D5B086CDA3903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>deptName</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[deptName (Custom SQL Query3)]</local-name>
+            <parent-name>[Custom SQL Query3]</parent-name>
+            <remote-alias>deptName</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='2147483649' name='LEN_RUS_S2_VWIN' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[_EED9E13083994FF58B6D5B086CDA3903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>uniqueVisitors</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[uniqueVisitors]</local-name>
+            <parent-name>[Custom SQL Query3]</parent-name>
+            <remote-alias>uniqueVisitors</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[_EED9E13083994FF58B6D5B086CDA3903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>courseID</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[courseID (Custom SQL Query5)]</local-name>
+            <parent-name>[Custom SQL Query5]</parent-name>
+            <remote-alias>courseID</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[_851C11997DF546B1B9074CA7A725C087]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>userID</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[userID (Custom SQL Query5)]</local-name>
+            <parent-name>[Custom SQL Query5]</parent-name>
+            <remote-alias>userID</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[_851C11997DF546B1B9074CA7A725C087]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>lastVisitDate</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[lastVisitDate]</local-name>
+            <parent-name>[Custom SQL Query5]</parent-name>
+            <remote-alias>lastVisitDate</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_DATE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_DATE&quot;</attribute>
+              <attribute datatype='boolean' name='TypeIsDateTime2orDate'>true</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[_851C11997DF546B1B9074CA7A725C087]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>courseID</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[courseID (Custom SQL Query)]</local-name>
+            <parent-name>[Custom SQL Query]</parent-name>
+            <remote-alias>courseID</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[_869669C760664AF78044BB204BCB6C8B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>deptName</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[deptName (Custom SQL Query)]</local-name>
+            <parent-name>[Custom SQL Query]</parent-name>
+            <remote-alias>deptName</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='2147483649' name='LEN_RUS_S2_VWIN' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[_869669C760664AF78044BB204BCB6C8B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>programID</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[programID (Custom SQL Query)]</local-name>
+            <parent-name>[Custom SQL Query]</parent-name>
+            <remote-alias>programID</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[_869669C760664AF78044BB204BCB6C8B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>courseID</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[courseID (Custom SQL Query4)]</local-name>
+            <parent-name>[Custom SQL Query4]</parent-name>
+            <remote-alias>courseID</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[_EC96D51A6D1B4214B655299749F02C20]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>userID</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[userID (Custom SQL Query4)]</local-name>
+            <parent-name>[Custom SQL Query4]</parent-name>
+            <remote-alias>userID</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[_EC96D51A6D1B4214B655299749F02C20]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>visitCount</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[visitCount]</local-name>
+            <parent-name>[Custom SQL Query4]</parent-name>
+            <remote-alias>visitCount</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[_EC96D51A6D1B4214B655299749F02C20]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>courseID</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[courseID (depCourse)]</local-name>
+            <parent-name>[depCourse]</parent-name>
+            <remote-alias>courseID</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[depCourse_C93715585D1E4D11A06CE79F73667957]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>deptName</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[deptName]</local-name>
+            <parent-name>[depCourse]</parent-name>
+            <remote-alias>deptName</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='2147483649' name='LEN_RUS_S2_VWIN' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[depCourse_C93715585D1E4D11A06CE79F73667957]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>programID</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[programID (depCourse)]</local-name>
+            <parent-name>[depCourse]</parent-name>
+            <remote-alias>programID</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[depCourse_C93715585D1E4D11A06CE79F73667957]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>programID</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[programID (program)]</local-name>
+            <parent-name>[program]</parent-name>
+            <remote-alias>programID</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[program_6F579D146FAA41749E57026C64104972]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[name]</local-name>
+            <parent-name>[program]</parent-name>
+            <remote-alias>name</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='2147483649' name='LEN_RUS_S2_VWIN' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[program_6F579D146FAA41749E57026C64104972]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>userID</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[userID (users)]</local-name>
+            <parent-name>[users]</parent-name>
+            <remote-alias>userID</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[users_AA67221712AF424BBC22E64BEDD3CF0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>programID</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[programID]</local-name>
+            <parent-name>[users]</parent-name>
+            <remote-alias>programID</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[users_AA67221712AF424BBC22E64BEDD3CF0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='one course time' datatype='real' name='[Calculation_2722988954662932480]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[longestDuration]/[visitedCourses]' />
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='Custom SQL Query1' datatype='table' name='[__tableau_internal_object_id__].[_40E453CA16C44FA08B312522BC51EFDD]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Custom SQL Query2' datatype='table' name='[__tableau_internal_object_id__].[_770B13004A4C486F811726CBD85D6A2C]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Custom SQL Query5' datatype='table' name='[__tableau_internal_object_id__].[_851C11997DF546B1B9074CA7A725C087]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Custom SQL Query' datatype='table' name='[__tableau_internal_object_id__].[_869669C760664AF78044BB204BCB6C8B]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Custom SQL Query4' datatype='table' name='[__tableau_internal_object_id__].[_EC96D51A6D1B4214B655299749F02C20]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Custom SQL Query3' datatype='table' name='[__tableau_internal_object_id__].[_EED9E13083994FF58B6D5B086CDA3903]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='courseSiteVisit' datatype='table' name='[__tableau_internal_object_id__].[courseSiteVisit_28639934EC1C429797EC046BCADD78FE]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='depCourse' datatype='table' name='[__tableau_internal_object_id__].[depCourse_C93715585D1E4D11A06CE79F73667957]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='program' datatype='table' name='[__tableau_internal_object_id__].[program_6F579D146FAA41749E57026C64104972]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='users' datatype='table' name='[__tableau_internal_object_id__].[users_AA67221712AF424BBC22E64BEDD3CF0E]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[courseID (Custom SQL Query)]' role='measure' type='quantitative' />
+      <column aggregation='Sum' datatype='integer' name='[courseID (depCourse)]' role='dimension' type='ordinal' />
+      <column aggregation='Sum' caption='Course ID' datatype='integer' name='[courseID]' role='dimension' type='ordinal' />
+      <column caption='Date' datatype='date' name='[date]' role='dimension' type='ordinal' />
+      <column caption='Dept Name' datatype='string' name='[deptName]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[longestDuration]' role='measure' type='quantitative' />
+      <column caption='Name' datatype='string' name='[name]' role='dimension' type='nominal' />
+      <column aggregation='Sum' datatype='integer' name='[programID (depCourse)]' role='dimension' type='ordinal' />
+      <column aggregation='Sum' datatype='integer' name='[programID (program)]' role='dimension' type='ordinal' />
+      <column aggregation='Sum' caption='Program ID' datatype='integer' name='[programID]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[userID (Custom SQL Query)]' role='measure' type='quantitative' />
+      <column aggregation='Sum' datatype='integer' name='[userID (users)]' role='dimension' type='ordinal' />
+      <column aggregation='Sum' caption='User ID' datatype='integer' name='[userID]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[visitCount]' role='measure' type='quantitative' />
+      <column caption='Visit ID' datatype='integer' name='[visitID]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[visitedCourses]' role='measure' type='quantitative' />
+      <column-instance column='[courseID]' derivation='Count' name='[cnt:courseID:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[userID]' derivation='Count' name='[cnt:userID:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[visitCount]' derivation='Count' name='[cnt:visitCount:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[userID (Custom SQL Query)]' derivation='Min' name='[min:userID (Custom SQL Query):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[courseID (depCourse)]' derivation='None' name='[none:courseID (depCourse):ok]' pivot='key' type='ordinal' />
+      <column-instance column='[courseID]' derivation='None' name='[none:courseID:ok]' pivot='key' type='ordinal' />
+      <column-instance column='[deptName]' derivation='None' name='[none:deptName:nk]' pivot='key' type='nominal' />
+      <column-instance column='[name]' derivation='None' name='[none:name:nk]' pivot='key' type='nominal' />
+      <column-instance column='[userID]' derivation='None' name='[none:userID:ok]' pivot='key' type='ordinal' />
+      <column-instance column='[Calculation_2722988954662932480]' derivation='Sum' name='[sum:Calculation_2722988954662932480:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[courseID (Custom SQL Query)]' derivation='Sum' name='[sum:courseID (Custom SQL Query):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[longestDuration]' derivation='Sum' name='[sum:longestDuration:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[visitedCourses]' derivation='Sum' name='[sum:visitedCourses:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:courseID (depCourse):ok]' palette='winter_10_0' type='palette'>
+            <map to='#90728f'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#9d9b3d'>
+              <bucket>102</bucket>
+            </map>
+            <map to='#b9a0b4'>
+              <bucket>101</bucket>
+            </map>
+            <map to='#cecb76'>
+              <bucket>103</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>104</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:name:nk]' palette='blue_red_brown_10_0' type='palette'>
+            <map to='#466f9d'>
+              <bucket>&quot;Master&quot;</bucket>
+            </map>
+            <map to='#91b3d7'>
+              <bucket>&quot;Undergraduate&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>%null%</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:deptName:nk]' palette='tableau-20' type='palette'>
+            <map to='#1f77b4'>
+              <bucket>&quot;Computer Science&quot;</bucket>
+            </map>
+            <map to='#aec7e8'>
+              <bucket>&quot;Mathematics&quot;</bucket>
+            </map>
+            <map to='#ff7f0e'>
+              <bucket>%null%</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[:Measure Names]' palette='blue_red_brown_10_0' type='palette'>
+            <map to='#3896c4'>
+              <bucket>&quot;[federated.1p8y69m0ksjgci14v6nem16o0ltc].[sum:visitedCourses:qk]&quot;</bucket>
+            </map>
+            <map to='#466f9d'>
+              <bucket>&quot;[federated.1p8y69m0ksjgci14v6nem16o0ltc].[cnt:courseID:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1p8y69m0ksjgci14v6nem16o0ltc].[sum:courseID (Custom SQL Query):qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.1p8y69m0ksjgci14v6nem16o0ltc].[cnt:streakDays:qk]&quot;</bucket>
+            </map>
+            <map to='#91b3d7'>
+              <bucket>&quot;[federated.1p8y69m0ksjgci14v6nem16o0ltc].[sum:Calculation_2722988954662932480:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.1p8y69m0ksjgci14v6nem16o0ltc].[__tableau_internal_object_id__].[cnt:_5B795D672CED414388C3A63855660B66:qk]&quot;</bucket>
+            </map>
+            <map to='#c8133b'>
+              <bucket>&quot;[federated.1p8y69m0ksjgci14v6nem16o0ltc].[sum:longestDuration:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1p8y69m0ksjgci14v6nem16o0ltc].[__tableau_internal_object_id__].[cnt:_9F316A45A9A64BF292E0B51CBDB6CD1C:qk]&quot;</bucket>
+            </map>
+            <map to='#ed444a'>
+              <bucket>&quot;[federated.1p8y69m0ksjgci14v6nem16o0ltc].[cnt:userID:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1p8y69m0ksjgci14v6nem16o0ltc].[cnt:userID (Custom SQL Query):qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1p8y69m0ksjgci14v6nem16o0ltc].[max:userID (Custom SQL Query):qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1p8y69m0ksjgci14v6nem16o0ltc].[min:userID (Custom SQL Query):qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1p8y69m0ksjgci14v6nem16o0ltc].[sum:userID (Custom SQL Query):qk]&quot;</bucket>
+            </map>
+            <map to='#feb5a2'>
+              <bucket>&quot;[federated.1p8y69m0ksjgci14v6nem16o0ltc].[cnt:visitCount:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:userID:ok]' palette='winter_10_0' type='palette'>
+            <map to='#90728f'>
+              <bucket>110119774</bucket>
+            </map>
+            <map to='#9d9b3d'>
+              <bucket>110119776</bucket>
+            </map>
+            <map to='#b9a0b4'>
+              <bucket>110119775</bucket>
+            </map>
+            <map to='#cecb76'>
+              <bucket>110119777</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>110119778</bucket>
+            </map>
+            <map to='#ff9888'>
+              <bucket>110119779</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:courseID:ok]' type='palette'>
+            <map to='#5fbb68'>
+              <bucket>103</bucket>
+            </map>
+            <map to='#eb1e2c'>
+              <bucket>101</bucket>
+            </map>
+            <map to='#f9d23c'>
+              <bucket>102</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Canada&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Custom SQL Query1' id='_40E453CA16C44FA08B312522BC51EFDD'>
+            <properties context=''>
+              <relation connection='sqlserver.01kcvh30uoqogu1bp26pf0mxxvhn' name='Custom SQL Query1' type='text'>SELECT c.courseID, COUNT(cv.visitID) as totalVisits&#13;
+FROM depCourse c&#13;
+LEFT JOIN courseSiteVisit cv ON c.courseID = cv.courseID&#13;
+GROUP BY c.courseID</relation>
+            </properties>
+          </object>
+          <object caption='Custom SQL Query2' id='_770B13004A4C486F811726CBD85D6A2C'>
+            <properties context=''>
+              <relation connection='sqlserver.01kcvh30uoqogu1bp26pf0mxxvhn' name='Custom SQL Query2' type='text'>SELECT p.name as program, c.courseID, COUNT(cv.visitID) as totalVisits&#13;
+FROM program p&#13;
+JOIN depCourse c ON p.programID = c.programID&#13;
+LEFT JOIN courseSiteVisit cv ON c.courseID = cv.courseID&#13;
+GROUP BY p.name, c.courseID</relation>
+            </properties>
+          </object>
+          <object caption='Custom SQL Query5' id='_851C11997DF546B1B9074CA7A725C087'>
+            <properties context=''>
+              <relation connection='sqlserver.01kcvh30uoqogu1bp26pf0mxxvhn' name='Custom SQL Query5' type='text'>SELECT courseID, userID, MAX(date) as lastVisitDate&#13;
+FROM courseSiteVisit&#13;
+GROUP BY courseID, userID</relation>
+            </properties>
+          </object>
+          <object caption='Custom SQL Query' id='_869669C760664AF78044BB204BCB6C8B'>
+            <properties context=''>
+              <relation connection='sqlserver.01kcvh30uoqogu1bp26pf0mxxvhn' name='Custom SQL Query' type='text'>SELECT * FROM depCourse</relation>
+            </properties>
+          </object>
+          <object caption='Custom SQL Query4' id='_EC96D51A6D1B4214B655299749F02C20'>
+            <properties context=''>
+              <relation connection='sqlserver.01kcvh30uoqogu1bp26pf0mxxvhn' name='Custom SQL Query4' type='text'>SELECT courseID, userID, COUNT(visitID) as visitCount&#13;
+FROM courseSiteVisit&#13;
+GROUP BY courseID, userID</relation>
+            </properties>
+          </object>
+          <object caption='Custom SQL Query3' id='_EED9E13083994FF58B6D5B086CDA3903'>
+            <properties context=''>
+              <relation connection='sqlserver.01kcvh30uoqogu1bp26pf0mxxvhn' name='Custom SQL Query3' type='text'>SELECT p.name as program, d.deptName, COUNT(DISTINCT cv.userID) as uniqueVisitors&#13;
+FROM program p&#13;
+JOIN depCourse d ON p.programID = d.programID&#13;
+LEFT JOIN courseSiteVisit cv ON d.courseID = cv.courseID&#13;
+GROUP BY p.name, d.deptName</relation>
+            </properties>
+          </object>
+          <object caption='courseSiteVisit' id='courseSiteVisit_28639934EC1C429797EC046BCADD78FE'>
+            <properties context=''>
+              <relation connection='sqlserver.01kcvh30uoqogu1bp26pf0mxxvhn' name='courseSiteVisit' table='[dbo].[courseSiteVisit]' type='table' />
+            </properties>
+          </object>
+          <object caption='depCourse' id='depCourse_C93715585D1E4D11A06CE79F73667957'>
+            <properties context=''>
+              <relation connection='sqlserver.01kcvh30uoqogu1bp26pf0mxxvhn' name='depCourse' table='[dbo].[depCourse]' type='table' />
+            </properties>
+          </object>
+          <object caption='program' id='program_6F579D146FAA41749E57026C64104972'>
+            <properties context=''>
+              <relation connection='sqlserver.01kcvh30uoqogu1bp26pf0mxxvhn' name='program' table='[dbo].[program]' type='table' />
+            </properties>
+          </object>
+          <object caption='users' id='users_AA67221712AF424BBC22E64BEDD3CF0E'>
+            <properties context=''>
+              <relation connection='sqlserver.01kcvh30uoqogu1bp26pf0mxxvhn' name='users' table='[dbo].[users]' type='table' />
+            </properties>
+          </object>
+        </objects>
+        <relationships>
+          <relationship>
+            <expression op='='>
+              <expression op='[courseID]' />
+              <expression op='[courseID (Custom SQL Query1)]' />
+            </expression>
+            <first-end-point object-id='courseSiteVisit_28639934EC1C429797EC046BCADD78FE' />
+            <second-end-point object-id='_40E453CA16C44FA08B312522BC51EFDD' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[courseID]' />
+              <expression op='[courseID (Custom SQL Query2)]' />
+            </expression>
+            <first-end-point object-id='courseSiteVisit_28639934EC1C429797EC046BCADD78FE' />
+            <second-end-point object-id='_770B13004A4C486F811726CBD85D6A2C' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[courseID]' />
+              <expression op='[courseID (Custom SQL Query5)]' />
+            </expression>
+            <first-end-point object-id='courseSiteVisit_28639934EC1C429797EC046BCADD78FE' />
+            <second-end-point object-id='_851C11997DF546B1B9074CA7A725C087' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[courseID]' />
+              <expression op='[courseID (Custom SQL Query)]' />
+            </expression>
+            <first-end-point object-id='courseSiteVisit_28639934EC1C429797EC046BCADD78FE' />
+            <second-end-point object-id='_869669C760664AF78044BB204BCB6C8B' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[courseID]' />
+              <expression op='[courseID (Custom SQL Query4)]' />
+            </expression>
+            <first-end-point object-id='courseSiteVisit_28639934EC1C429797EC046BCADD78FE' />
+            <second-end-point object-id='_EC96D51A6D1B4214B655299749F02C20' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[program]' />
+              <expression op='[program (Custom SQL Query3)]' />
+            </expression>
+            <first-end-point object-id='_770B13004A4C486F811726CBD85D6A2C' />
+            <second-end-point object-id='_EED9E13083994FF58B6D5B086CDA3903' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[courseID]' />
+              <expression op='[courseID (depCourse)]' />
+            </expression>
+            <first-end-point object-id='courseSiteVisit_28639934EC1C429797EC046BCADD78FE' />
+            <second-end-point _.fcp.ObjectModelRelationshipPerfOptions.true...is-db-set-unique-key='true' object-id='depCourse_C93715585D1E4D11A06CE79F73667957' unique-key='true' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[programID (depCourse)]' />
+              <expression op='[programID (program)]' />
+            </expression>
+            <first-end-point object-id='depCourse_C93715585D1E4D11A06CE79F73667957' />
+            <second-end-point _.fcp.ObjectModelRelationshipPerfOptions.true...is-db-set-unique-key='true' object-id='program_6F579D146FAA41749E57026C64104972' unique-key='true' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[userID]' />
+              <expression op='[userID (users)]' />
+            </expression>
+            <first-end-point object-id='courseSiteVisit_28639934EC1C429797EC046BCADD78FE' />
+            <second-end-point _.fcp.ObjectModelRelationshipPerfOptions.true...is-db-set-unique-key='true' object-id='users_AA67221712AF424BBC22E64BEDD3CF0E' unique-key='true' />
+          </relationship>
+        </relationships>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 12'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='courseSiteVisit+ (ADTAssignment2)' name='federated.1p8y69m0ksjgci14v6nem16o0ltc' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1p8y69m0ksjgci14v6nem16o0ltc'>
+            <column aggregation='Sum' caption='Course ID' datatype='integer' name='[courseID]' role='dimension' type='ordinal' />
+            <column-instance column='[courseID]' derivation='None' name='[none:courseID:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[userID]' derivation='None' name='[none:userID:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[visitCount]' derivation='Sum' name='[sum:visitCount:qk]' pivot='key' type='quantitative' />
+            <column aggregation='Sum' caption='User ID' datatype='integer' name='[userID]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[visitCount]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='label'>
+            <format attr='text-orientation' field='[federated.1p8y69m0ksjgci14v6nem16o0ltc].[none:userID:ok]' value='-90' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1p8y69m0ksjgci14v6nem16o0ltc].[none:userID:ok]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1p8y69m0ksjgci14v6nem16o0ltc].[sum:visitCount:qk]</rows>
+        <cols>([federated.1p8y69m0ksjgci14v6nem16o0ltc].[none:courseID:ok] / [federated.1p8y69m0ksjgci14v6nem16o0ltc].[none:userID:ok])</cols>
+      </table>
+      <simple-id uuid='{5A1CFDA3-9C93-49DA-96F3-98422A9E98EE}' />
+    </worksheet>
+    <worksheet name='Sheet 14'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='courseSiteVisit+ (ADTAssignment2)' name='federated.1p8y69m0ksjgci14v6nem16o0ltc' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1p8y69m0ksjgci14v6nem16o0ltc'>
+            <column aggregation='Sum' datatype='integer' name='[courseID (depCourse)]' role='dimension' type='ordinal' />
+            <column-instance column='[userID]' derivation='CountD' name='[ctd:userID:qk]' pivot='key' type='quantitative' />
+            <column caption='Dept Name' datatype='string' name='[deptName]' role='dimension' type='nominal' />
+            <column caption='Name' datatype='string' name='[name]' role='dimension' type='nominal' />
+            <column-instance column='[courseID (depCourse)]' derivation='None' name='[none:courseID (depCourse):ok]' pivot='key' type='ordinal' />
+            <column-instance column='[deptName]' derivation='None' name='[none:deptName:nk]' pivot='key' type='nominal' />
+            <column-instance column='[name]' derivation='None' name='[none:name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[userID (users)]' derivation='None' name='[none:userID (users):ok]' pivot='key' type='ordinal' />
+            <column aggregation='Sum' datatype='integer' name='[userID (users)]' role='dimension' type='ordinal' />
+            <column aggregation='Sum' caption='User ID' datatype='integer' name='[userID]' role='dimension' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>([federated.1p8y69m0ksjgci14v6nem16o0ltc].[none:deptName:nk] / ([federated.1p8y69m0ksjgci14v6nem16o0ltc].[none:name:nk] / ([federated.1p8y69m0ksjgci14v6nem16o0ltc].[none:userID (users):ok] / [federated.1p8y69m0ksjgci14v6nem16o0ltc].[none:courseID (depCourse):ok])))</rows>
+        <cols>[federated.1p8y69m0ksjgci14v6nem16o0ltc].[ctd:userID:qk]</cols>
+      </table>
+      <simple-id uuid='{D510E67E-C6EB-4430-AE9C-6AD55973A295}' />
+    </worksheet>
+    <worksheet name='Sheet 15'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='courseSiteVisit+ (ADTAssignment2)' name='federated.1p8y69m0ksjgci14v6nem16o0ltc' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1p8y69m0ksjgci14v6nem16o0ltc'>
+            <column aggregation='Sum' caption='Course ID' datatype='integer' name='[courseID]' role='dimension' type='ordinal' />
+            <column caption='Date' datatype='date' name='[date]' role='dimension' type='ordinal' />
+            <column-instance column='[date]' derivation='Max' name='[max:date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[courseID]' derivation='None' name='[none:courseID:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[userID]' derivation='None' name='[none:userID:ok]' pivot='key' type='ordinal' />
+            <column aggregation='Sum' caption='User ID' datatype='integer' name='[userID]' role='dimension' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>([federated.1p8y69m0ksjgci14v6nem16o0ltc].[max:date:ok] / [federated.1p8y69m0ksjgci14v6nem16o0ltc].[none:userID:ok])</rows>
+        <cols>[federated.1p8y69m0ksjgci14v6nem16o0ltc].[none:courseID:ok]</cols>
+      </table>
+      <simple-id uuid='{888E4B89-ADF6-4A46-95AA-65CE2F412160}' />
+    </worksheet>
+    <worksheet name='Sheet 16'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='courseSiteVisit+ (ADTAssignment2)' name='federated.1p8y69m0ksjgci14v6nem16o0ltc' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1p8y69m0ksjgci14v6nem16o0ltc'>
+            <column-instance column='[courseID]' derivation='Count' name='[cnt:courseID:qk]' pivot='key' type='quantitative' />
+            <column aggregation='Sum' caption='Course ID' datatype='integer' name='[courseID]' role='dimension' type='ordinal' />
+            <column-instance column='[courseID]' derivation='None' name='[none:courseID:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[userID]' derivation='None' name='[none:userID:ok]' pivot='key' type='ordinal' />
+            <column aggregation='Sum' caption='User ID' datatype='integer' name='[userID]' role='dimension' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>([federated.1p8y69m0ksjgci14v6nem16o0ltc].[none:userID:ok] / [federated.1p8y69m0ksjgci14v6nem16o0ltc].[none:courseID:ok])</rows>
+        <cols>[federated.1p8y69m0ksjgci14v6nem16o0ltc].[cnt:courseID:qk]</cols>
+      </table>
+      <simple-id uuid='{DE85874F-993B-4C27-BBF8-CC2120FD2F54}' />
+    </worksheet>
+    <worksheet name='Sheet 17'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='courseSiteVisit+ (ADTAssignment2)' name='federated.1p8y69m0ksjgci14v6nem16o0ltc' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1p8y69m0ksjgci14v6nem16o0ltc'>
+            <column-instance column='[userID]' derivation='CountD' name='[ctd:userID:qk]' pivot='key' type='quantitative' />
+            <column caption='Dept Name' datatype='string' name='[deptName]' role='dimension' type='nominal' />
+            <column caption='Name' datatype='string' name='[name]' role='dimension' type='nominal' />
+            <column-instance column='[deptName]' derivation='None' name='[none:deptName:nk]' pivot='key' type='nominal' />
+            <column-instance column='[name]' derivation='None' name='[none:name:nk]' pivot='key' type='nominal' />
+            <column aggregation='Sum' caption='User ID' datatype='integer' name='[userID]' role='dimension' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>([federated.1p8y69m0ksjgci14v6nem16o0ltc].[none:name:nk] / [federated.1p8y69m0ksjgci14v6nem16o0ltc].[none:deptName:nk])</rows>
+        <cols>[federated.1p8y69m0ksjgci14v6nem16o0ltc].[ctd:userID:qk]</cols>
+      </table>
+      <simple-id uuid='{E357D44A-BB4E-420C-A091-AFFCCDE1ADA9}' />
+    </worksheet>
+    <worksheet name='Sheet 18'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='courseSiteVisit+ (ADTAssignment2)' name='federated.1p8y69m0ksjgci14v6nem16o0ltc' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1p8y69m0ksjgci14v6nem16o0ltc'>
+            <column-instance column='[userID]' derivation='CountD' name='[ctd:userID:qk]' pivot='key' type='quantitative' />
+            <column caption='Dept Name' datatype='string' name='[deptName]' role='dimension' type='nominal' />
+            <column caption='Name' datatype='string' name='[name]' role='dimension' type='nominal' />
+            <column-instance column='[deptName]' derivation='None' name='[none:deptName:nk]' pivot='key' type='nominal' />
+            <column-instance column='[name]' derivation='None' name='[none:name:nk]' pivot='key' type='nominal' />
+            <column aggregation='Sum' caption='User ID' datatype='integer' name='[userID]' role='dimension' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>([federated.1p8y69m0ksjgci14v6nem16o0ltc].[none:deptName:nk] / [federated.1p8y69m0ksjgci14v6nem16o0ltc].[none:name:nk])</rows>
+        <cols>[federated.1p8y69m0ksjgci14v6nem16o0ltc].[ctd:userID:qk]</cols>
+      </table>
+      <simple-id uuid='{07211664-F5FB-4BA8-A398-2C1E71CEF6B0}' />
+    </worksheet>
+    <worksheet name='query1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>The total number of times a course has been visited or accessed by all users</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='courseSiteVisit+ (ADTAssignment2)' name='federated.1p8y69m0ksjgci14v6nem16o0ltc' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1p8y69m0ksjgci14v6nem16o0ltc'>
+            <column caption='Dept Name' datatype='string' name='[deptName]' role='dimension' type='nominal' />
+            <column caption='Name' datatype='string' name='[name]' role='dimension' type='nominal' />
+            <column-instance column='[deptName]' derivation='None' name='[none:deptName:nk]' pivot='key' type='nominal' />
+            <column-instance column='[name]' derivation='None' name='[none:name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[uniqueVisitors]' derivation='Sum' name='[sum:uniqueVisitors:qk]' pivot='key' type='quantitative' />
+            <column datatype='integer' name='[uniqueVisitors]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1p8y69m0ksjgci14v6nem16o0ltc].[none:deptName:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.1p8y69m0ksjgci14v6nem16o0ltc].[none:deptName:nk] / [federated.1p8y69m0ksjgci14v6nem16o0ltc].[none:name:nk])</rows>
+        <cols>[federated.1p8y69m0ksjgci14v6nem16o0ltc].[sum:uniqueVisitors:qk]</cols>
+      </table>
+      <simple-id uuid='{94F1CF67-6980-42FB-851B-8D5AC237B266}' />
+    </worksheet>
+    <worksheet name='query10'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Longest gap between visit per user and number of days in single course.</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='courseSiteVisit+ (ADTAssignment2)' name='federated.1p8y69m0ksjgci14v6nem16o0ltc' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1p8y69m0ksjgci14v6nem16o0ltc'>
+            <column aggregation='Sum' caption='Course ID' datatype='integer' name='[courseID]' role='dimension' type='ordinal' />
+            <column datatype='date' name='[endDate]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[longestGap]' role='measure' type='quantitative' />
+            <column-instance column='[endDate]' derivation='MY' name='[my:endDate:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[startDate]' derivation='MY' name='[my:startDate:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[courseID]' derivation='None' name='[none:courseID:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[userID]' derivation='None' name='[none:userID:ok]' pivot='key' type='ordinal' />
+            <column datatype='date' name='[startDate]' role='dimension' type='ordinal' />
+            <column-instance column='[longestGap]' derivation='Sum' name='[sum:longestGap:qk]' pivot='key' type='quantitative' />
+            <column aggregation='Sum' caption='User ID' datatype='integer' name='[userID]' role='dimension' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.1p8y69m0ksjgci14v6nem16o0ltc].[sum:longestGap:qk]' included-values='non-null' />
+          <slices>
+            <column>[federated.1p8y69m0ksjgci14v6nem16o0ltc].[sum:longestGap:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.1p8y69m0ksjgci14v6nem16o0ltc].[my:startDate:ok]' value='80' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.1p8y69m0ksjgci14v6nem16o0ltc].[sum:longestGap:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Shape' />
+            <encodings>
+              <color column='[federated.1p8y69m0ksjgci14v6nem16o0ltc].[none:courseID:ok]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.60000002384185791' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1p8y69m0ksjgci14v6nem16o0ltc].[sum:longestGap:qk]</rows>
+        <cols>([federated.1p8y69m0ksjgci14v6nem16o0ltc].[none:userID:ok] / ([federated.1p8y69m0ksjgci14v6nem16o0ltc].[my:endDate:ok] / [federated.1p8y69m0ksjgci14v6nem16o0ltc].[my:startDate:ok]))</cols>
+      </table>
+      <simple-id uuid='{4CC8882F-DD5F-4360-8680-05C47ACC141B}' />
+    </worksheet>
+    <worksheet name='query10 (2)'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Longest gap between visit per user and number of days in single course.</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='courseSiteVisit+ (ADTAssignment2)' name='federated.1p8y69m0ksjgci14v6nem16o0ltc' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1p8y69m0ksjgci14v6nem16o0ltc'>
+            <column aggregation='Sum' caption='Course ID' datatype='integer' name='[courseID]' role='dimension' type='ordinal' />
+            <column datatype='date' name='[endDate]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[longestGap]' role='measure' type='quantitative' />
+            <column-instance column='[endDate]' derivation='MY' name='[my:endDate:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[startDate]' derivation='MY' name='[my:startDate:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[courseID]' derivation='None' name='[none:courseID:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[userID]' derivation='None' name='[none:userID:ok]' pivot='key' type='ordinal' />
+            <column datatype='date' name='[startDate]' role='dimension' type='ordinal' />
+            <column-instance column='[longestGap]' derivation='Sum' name='[sum:longestGap:qk]' pivot='key' type='quantitative' />
+            <column aggregation='Sum' caption='User ID' datatype='integer' name='[userID]' role='dimension' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.1p8y69m0ksjgci14v6nem16o0ltc].[sum:longestGap:qk]' included-values='non-null' />
+          <slices>
+            <column>[federated.1p8y69m0ksjgci14v6nem16o0ltc].[sum:longestGap:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.1p8y69m0ksjgci14v6nem16o0ltc].[my:startDate:ok]' value='43' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-orientation' field='[federated.1p8y69m0ksjgci14v6nem16o0ltc].[my:startDate:ok]' value='-90' />
+            <format attr='text-orientation' field='[federated.1p8y69m0ksjgci14v6nem16o0ltc].[my:endDate:ok]' value='-90' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.1p8y69m0ksjgci14v6nem16o0ltc].[sum:longestGap:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.1p8y69m0ksjgci14v6nem16o0ltc].[my:startDate:ok]' />
+            </encodings>
+            <style>
+              <style-rule element='cell'>
+                <format attr='vertical-align' value='auto' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1p8y69m0ksjgci14v6nem16o0ltc].[sum:longestGap:qk]</rows>
+        <cols>([federated.1p8y69m0ksjgci14v6nem16o0ltc].[none:courseID:ok] / ([federated.1p8y69m0ksjgci14v6nem16o0ltc].[none:userID:ok] / ([federated.1p8y69m0ksjgci14v6nem16o0ltc].[my:endDate:ok] / [federated.1p8y69m0ksjgci14v6nem16o0ltc].[my:startDate:ok])))</cols>
+      </table>
+      <simple-id uuid='{D6007D8F-EB9B-486B-8AA0-9DFBB5218A94}' />
+    </worksheet>
+    <worksheet name='query11'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>The user who visited the most courses within a short duration.</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='courseSiteVisit+ (ADTAssignment2)' name='federated.1p8y69m0ksjgci14v6nem16o0ltc' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1p8y69m0ksjgci14v6nem16o0ltc'>
+            <column datatype='date' name='[earliestVisit]' role='dimension' type='ordinal' />
+            <column datatype='date' name='[latestVisit]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[longestDuration]' role='measure' type='quantitative' />
+            <column-instance column='[earliestVisit]' derivation='MY' name='[my:earliestVisit:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[latestVisit]' derivation='MY' name='[my:latestVisit:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[userID]' derivation='None' name='[none:userID:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[longestDuration]' derivation='Sum' name='[sum:longestDuration:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[visitedCourses]' derivation='Sum' name='[sum:visitedCourses:qk]' pivot='key' type='quantitative' />
+            <column aggregation='Sum' caption='User ID' datatype='integer' name='[userID]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[visitedCourses]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1p8y69m0ksjgci14v6nem16o0ltc].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1p8y69m0ksjgci14v6nem16o0ltc].[sum:longestDuration:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1p8y69m0ksjgci14v6nem16o0ltc].[sum:visitedCourses:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1p8y69m0ksjgci14v6nem16o0ltc].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.1p8y69m0ksjgci14v6nem16o0ltc].[:Measure Names]' value='102' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1p8y69m0ksjgci14v6nem16o0ltc].[sum:visitedCourses:qk]' palette='gold_purple_diverging_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.1p8y69m0ksjgci14v6nem16o0ltc].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1p8y69m0ksjgci14v6nem16o0ltc].[Multiple Values]</rows>
+        <cols>([federated.1p8y69m0ksjgci14v6nem16o0ltc].[none:userID:ok] / ([federated.1p8y69m0ksjgci14v6nem16o0ltc].[my:earliestVisit:ok] / ([federated.1p8y69m0ksjgci14v6nem16o0ltc].[my:latestVisit:ok] / [federated.1p8y69m0ksjgci14v6nem16o0ltc].[:Measure Names])))</cols>
+      </table>
+      <simple-id uuid='{BB800B5F-6C34-4412-AF6E-88EBED1341E1}' />
+    </worksheet>
+    <worksheet name='query11 (2)'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>The user who visited the most courses within a short duration.</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='courseSiteVisit+ (ADTAssignment2)' name='federated.1p8y69m0ksjgci14v6nem16o0ltc' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1p8y69m0ksjgci14v6nem16o0ltc'>
+            <column caption='one course time' datatype='real' name='[Calculation_2722988954662932480]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[longestDuration]/[visitedCourses]' />
+            </column>
+            <column datatype='integer' name='[longestDuration]' role='measure' type='quantitative' />
+            <column-instance column='[userID]' derivation='None' name='[none:userID:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_2722988954662932480]' derivation='Sum' name='[sum:Calculation_2722988954662932480:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[visitedCourses]' derivation='Sum' name='[sum:visitedCourses:qk]' pivot='key' type='quantitative' />
+            <column aggregation='Sum' caption='User ID' datatype='integer' name='[userID]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[visitedCourses]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1p8y69m0ksjgci14v6nem16o0ltc].[sum:visitedCourses:qk]' palette='green_blue_diverging_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-color' id='refline0' value='#000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.1p8y69m0ksjgci14v6nem16o0ltc].[sum:visitedCourses:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='false' />
+                <format attr='mark-color' value='#edc948' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1p8y69m0ksjgci14v6nem16o0ltc].[none:userID:ok]</rows>
+        <cols>[federated.1p8y69m0ksjgci14v6nem16o0ltc].[sum:Calculation_2722988954662932480:qk]</cols>
+      </table>
+      <simple-id uuid='{DB2E80D5-FC3F-4B78-930A-C94BC30BCDDE}' />
+    </worksheet>
+    <worksheet name='query2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>The total number of visits for each course, categorized by program</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='courseSiteVisit+ (ADTAssignment2)' name='federated.1p8y69m0ksjgci14v6nem16o0ltc' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1p8y69m0ksjgci14v6nem16o0ltc'>
+            <column aggregation='Sum' datatype='integer' name='[courseID (depCourse)]' role='dimension' type='ordinal' />
+            <column-instance column='[courseID (depCourse)]' derivation='None' name='[none:courseID (depCourse):ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1p8y69m0ksjgci14v6nem16o0ltc].[none:courseID (depCourse):ok]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{FFA4DF0C-F602-4EB0-A002-7B350D99C07E}' />
+    </worksheet>
+    <worksheet name='query4'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>The total number of unique visitors per department by program.</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='courseSiteVisit+ (ADTAssignment2)' name='federated.1p8y69m0ksjgci14v6nem16o0ltc' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1p8y69m0ksjgci14v6nem16o0ltc'>
+            <column caption='Dept Name' datatype='string' name='[deptName]' role='dimension' type='nominal' />
+            <column-instance column='[deptName]' derivation='None' name='[none:deptName:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1p8y69m0ksjgci14v6nem16o0ltc].[none:deptName:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1p8y69m0ksjgci14v6nem16o0ltc].[none:deptName:nk]</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{C4C32786-572C-4FCB-BBD4-162B3708E78A}' />
+    </worksheet>
+    <worksheet name='query5'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>The most recent date (or last date) on which a user visited each course.</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='courseSiteVisit+ (ADTAssignment2)' name='federated.1p8y69m0ksjgci14v6nem16o0ltc' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1p8y69m0ksjgci14v6nem16o0ltc'>
+            <column aggregation='Sum' caption='Course ID' datatype='integer' name='[courseID]' role='dimension' type='ordinal' />
+            <column-instance column='[userID (Custom SQL Query)]' derivation='Min' name='[min:userID (Custom SQL Query):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[courseID]' derivation='None' name='[none:courseID:ok]' pivot='key' type='ordinal' />
+            <column datatype='integer' name='[userID (Custom SQL Query)]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1p8y69m0ksjgci14v6nem16o0ltc].[min:userID (Custom SQL Query):qk]</rows>
+        <cols>[federated.1p8y69m0ksjgci14v6nem16o0ltc].[none:courseID:ok]</cols>
+      </table>
+      <simple-id uuid='{13BBFD38-EFB6-4B68-8116-B3686AE6FE5F}' />
+    </worksheet>
+    <worksheet name='query5 (2)'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>The most recent date (or last date) on which a user visited each course.</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='courseSiteVisit+ (ADTAssignment2)' name='federated.1p8y69m0ksjgci14v6nem16o0ltc' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1p8y69m0ksjgci14v6nem16o0ltc'>
+            <column aggregation='Sum' caption='Course ID' datatype='integer' name='[courseID]' role='dimension' type='ordinal' />
+            <column-instance column='[userID (Custom SQL Query)]' derivation='Min' name='[min:userID (Custom SQL Query):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[courseID]' derivation='None' name='[none:courseID:ok]' pivot='key' type='ordinal' />
+            <column datatype='integer' name='[userID (Custom SQL Query)]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='legend'>
+            <format attr='background-color' value='#ffffff' />
+            <format attr='border-color' value='#000000' />
+            <format attr='border-width' value='0' />
+            <format attr='border-style' value='none' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <text column='[federated.1p8y69m0ksjgci14v6nem16o0ltc].[none:courseID:ok]' />
+              <color column='[federated.1p8y69m0ksjgci14v6nem16o0ltc].[min:userID (Custom SQL Query):qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{E6D753F0-421C-48DB-BFF1-B1445E7851B6}' />
+    </worksheet>
+    <worksheet name='query6'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>The number of times a user has visited each course.</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='courseSiteVisit+ (ADTAssignment2)' name='federated.1p8y69m0ksjgci14v6nem16o0ltc' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1p8y69m0ksjgci14v6nem16o0ltc'>
+            <column aggregation='Sum' caption='Course ID' datatype='integer' name='[courseID]' role='dimension' type='ordinal' />
+            <column-instance column='[courseID]' derivation='None' name='[none:courseID:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[userID]' derivation='None' name='[none:userID:ok]' pivot='key' type='ordinal' />
+            <column aggregation='Sum' caption='User ID' datatype='integer' name='[userID]' role='dimension' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.1p8y69m0ksjgci14v6nem16o0ltc].[none:userID:ok]' value='94' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1p8y69m0ksjgci14v6nem16o0ltc].[none:userID:ok]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols>([federated.1p8y69m0ksjgci14v6nem16o0ltc].[none:courseID:ok] / [federated.1p8y69m0ksjgci14v6nem16o0ltc].[none:userID:ok])</cols>
+      </table>
+      <simple-id uuid='{32100E56-7550-4F14-A15D-D840030BA0E6}' />
+    </worksheet>
+    <worksheet name='query8'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>The user who visited a course the most times in a single day</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='courseSiteVisit+ (ADTAssignment2)' name='federated.1p8y69m0ksjgci14v6nem16o0ltc' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1p8y69m0ksjgci14v6nem16o0ltc'>
+            <column aggregation='Sum' caption='Course ID' datatype='integer' name='[courseID]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[dailyVisitCount]' role='measure' type='quantitative' />
+            <column datatype='date' name='[date (Custom SQL Query)]' role='dimension' type='ordinal' />
+            <column-instance column='[date (Custom SQL Query)]' derivation='MDY' name='[md:date (Custom SQL Query):ok]' pivot='key' type='ordinal' />
+            <column-instance column='[date (Custom SQL Query)]' derivation='MY' name='[my:date (Custom SQL Query):ok]' pivot='key' type='ordinal' />
+            <column-instance column='[courseID]' derivation='None' name='[none:courseID:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[userID]' derivation='None' name='[none:userID:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[dailyVisitCount]' derivation='Sum' name='[sum:dailyVisitCount:qk]' pivot='key' type='quantitative' />
+            <column aggregation='Sum' caption='User ID' datatype='integer' name='[userID]' role='dimension' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.1p8y69m0ksjgci14v6nem16o0ltc].[my:date (Custom SQL Query):ok]' value='30' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-orientation' field='[federated.1p8y69m0ksjgci14v6nem16o0ltc].[my:date (Custom SQL Query):ok]' value='-90' />
+            <format attr='text-orientation' field='[federated.1p8y69m0ksjgci14v6nem16o0ltc].[md:date (Custom SQL Query):ok]' value='-90' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.1p8y69m0ksjgci14v6nem16o0ltc].[my:date (Custom SQL Query):ok]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1p8y69m0ksjgci14v6nem16o0ltc].[sum:dailyVisitCount:qk]</rows>
+        <cols>([federated.1p8y69m0ksjgci14v6nem16o0ltc].[none:courseID:ok] / ([federated.1p8y69m0ksjgci14v6nem16o0ltc].[none:userID:ok] / ([federated.1p8y69m0ksjgci14v6nem16o0ltc].[my:date (Custom SQL Query):ok] / [federated.1p8y69m0ksjgci14v6nem16o0ltc].[my:date (Custom SQL Query):ok])))</cols>
+      </table>
+      <simple-id uuid='{EDEE91E0-FC74-42BC-9EF2-43F75252230E}' />
+    </worksheet>
+    <worksheet name='query9'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Longest visit streak days per user per course </run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='courseSiteVisit+ (ADTAssignment2)' name='federated.1p8y69m0ksjgci14v6nem16o0ltc' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1p8y69m0ksjgci14v6nem16o0ltc'>
+            <column aggregation='Sum' caption='Course ID' datatype='integer' name='[courseID]' role='dimension' type='ordinal' />
+            <column-instance column='[courseID]' derivation='None' name='[none:courseID:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[userID]' derivation='None' name='[none:userID:ok]' pivot='key' type='ordinal' />
+            <column aggregation='Sum' caption='User ID' datatype='integer' name='[userID]' role='dimension' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <style>
+              <style-rule element='cell'>
+                <format attr='vertical-align' value='auto' />
+                <format attr='wrap' value='on' />
+                <format attr='text-orientation' value='0' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols>([federated.1p8y69m0ksjgci14v6nem16o0ltc].[none:courseID:ok] / [federated.1p8y69m0ksjgci14v6nem16o0ltc].[none:userID:ok])</cols>
+      </table>
+      <simple-id uuid='{7B634F30-590B-4669-B32E-07B16CC946C8}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='44'>
+    <window class='worksheet' maximized='true' name='query1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1p8y69m0ksjgci14v6nem16o0ltc].[none:deptName:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{760D13E7-0CC3-44CA-B5AD-3E61EA7713EE}' />
+    </window>
+    <window class='worksheet' name='query2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1p8y69m0ksjgci14v6nem16o0ltc].[none:courseID (depCourse):ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{2F300873-8608-4FB5-B81B-5DC403373B03}' />
+    </window>
+    <window class='worksheet' name='query4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1p8y69m0ksjgci14v6nem16o0ltc].[none:deptName:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{73061B18-97FB-45B7-8E84-C394DD19A946}' />
+    </window>
+    <window class='worksheet' name='query5'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{4EF6C8C7-A967-4454-A8B1-B815CE07AB13}' />
+    </window>
+    <window class='worksheet' name='query5 (2)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{3BF84ADC-D8E3-4F3E-AEFA-EF890CE0048C}' />
+    </window>
+    <window class='worksheet' name='query6'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1p8y69m0ksjgci14v6nem16o0ltc].[none:userID:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{B990066D-0D33-4424-9FD2-CFF6BC15BE77}' />
+    </window>
+    <window class='worksheet' name='query9'>
+      <cards>
+        <edge name='left'>
+          <strip size='124'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{D35B62D2-C756-4E8F-8027-B521D6195C0B}' />
+    </window>
+    <window class='worksheet' name='query11'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{8807AE01-CA76-4C23-9F24-B9F2AC7596F3}' />
+    </window>
+    <window class='worksheet' name='query11 (2)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{38D2B2C7-5FC8-455E-9719-4B11EC539D09}' />
+    </window>
+    <window class='worksheet' name='query10'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{8C69EBF2-9905-4C0A-A8D9-EE34571B8DAC}' />
+    </window>
+    <window class='worksheet' name='query10 (2)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{98F2E770-854F-4346-97C8-B322D1F619FD}' />
+    </window>
+    <window class='worksheet' name='Sheet 12'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{C391AB6F-311F-4AB2-BF26-5BB2969CDC29}' />
+    </window>
+    <window class='worksheet' name='query8'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1p8y69m0ksjgci14v6nem16o0ltc].[my:date (Custom SQL Query):ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{7C01830B-013A-44D2-8EAA-F055081515BB}' />
+    </window>
+    <window class='worksheet' name='Sheet 14'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{9DFBDF20-5263-46DA-AB7F-72DB3C5DBAC3}' />
+    </window>
+    <window class='worksheet' name='Sheet 15'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{86357623-AAC7-45A4-B3E0-9107AB870AA8}' />
+    </window>
+    <window class='worksheet' name='Sheet 16'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{6CD22B69-B6F3-417E-BEEC-2D40A14736AA}' />
+    </window>
+    <window class='worksheet' name='Sheet 17'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{BBFACA9F-70EC-4860-B052-6E29BEA8659D}' />
+    </window>
+    <window class='worksheet' name='Sheet 18'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{DB5E3421-235B-4D6D-820A-C7D7BBA61260}' />
+    </window>
+  </windows>
+</workbook>

@@ -1,0 +1,9146 @@
+[{
+  "_id": {
+    "$oid": "656409aacc363b6735dc6521"
+  },
+  "authorName": "Rohit KVN",
+  "userId": {
+    "$oid": "656409aacc363b6735dc6516"
+  },
+  "recommendation": 949,
+  "createdAt": {
+    "$date": "2023-11-27T03:14:50.809Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:14:50.809Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409aacc363b6735dc6523"
+  },
+  "authorName": "Shekhar H Hooli",
+  "userId": {
+    "$oid": "656409aacc363b6735dc6516"
+  },
+  "recommendation": 160,
+  "createdAt": {
+    "$date": "2023-11-27T03:14:50.810Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:14:50.810Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409aacc363b6735dc6525"
+  },
+  "authorName": "Pranshu Rathee",
+  "userId": {
+    "$oid": "656409aacc363b6735dc6516"
+  },
+  "recommendation": 3077,
+  "createdAt": {
+    "$date": "2023-11-27T03:14:50.811Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:14:50.811Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409aacc363b6735dc6527"
+  },
+  "authorName": "Mugdha Variyar",
+  "userId": {
+    "$oid": "656409aacc363b6735dc6516"
+  },
+  "recommendation": 2664,
+  "createdAt": {
+    "$date": "2023-11-27T03:14:50.812Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:14:50.812Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409aacc363b6735dc6529"
+  },
+  "authorName": "Suparno Sarkar",
+  "userId": {
+    "$oid": "656409aacc363b6735dc6516"
+  },
+  "recommendation": 3558,
+  "createdAt": {
+    "$date": "2023-11-27T03:14:50.813Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:14:50.813Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409aacc363b6735dc652b"
+  },
+  "authorName": "Sushmita Sen",
+  "userId": {
+    "$oid": "656409aacc363b6735dc6516"
+  },
+  "recommendation": 2988,
+  "createdAt": {
+    "$date": "2023-11-27T03:14:50.814Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:14:50.814Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409aacc363b6735dc652d"
+  },
+  "authorName": "Anu James",
+  "userId": {
+    "$oid": "656409aacc363b6735dc6516"
+  },
+  "recommendation": 1889,
+  "createdAt": {
+    "$date": "2023-11-27T03:14:50.816Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:14:50.816Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409aacc363b6735dc652f"
+  },
+  "authorName": "Gopi Chandra Kharel",
+  "userId": {
+    "$oid": "656409aacc363b6735dc6516"
+  },
+  "recommendation": 2667,
+  "createdAt": {
+    "$date": "2023-11-27T03:14:50.817Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:14:50.817Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409aacc363b6735dc6531"
+  },
+  "authorName": "Shekhar H Hooli",
+  "userId": {
+    "$oid": "656409aacc363b6735dc6516"
+  },
+  "recommendation": 161,
+  "createdAt": {
+    "$date": "2023-11-27T03:14:50.818Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:14:50.818Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409aacc363b6735dc6533"
+  },
+  "authorName": "Anu James",
+  "userId": {
+    "$oid": "656409aacc363b6735dc6516"
+  },
+  "recommendation": 2590,
+  "createdAt": {
+    "$date": "2023-11-27T03:14:50.818Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:14:50.818Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409aacc363b6735dc6535"
+  },
+  "authorName": "Nicy V.P",
+  "userId": {
+    "$oid": "656409aacc363b6735dc6516"
+  },
+  "recommendation": 622,
+  "createdAt": {
+    "$date": "2023-11-27T03:14:50.819Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:14:50.819Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409adcc363b6735dc653d"
+  },
+  "authorName": "Neha Singh",
+  "userId": {
+    "$oid": "656409aacc363b6735dc651b"
+  },
+  "recommendation": 3836,
+  "createdAt": {
+    "$date": "2023-11-27T03:14:53.147Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:14:53.147Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409adcc363b6735dc653f"
+  },
+  "authorName": "Anirban Roy",
+  "userId": {
+    "$oid": "656409aacc363b6735dc651b"
+  },
+  "recommendation": 1460,
+  "createdAt": {
+    "$date": "2023-11-27T03:14:53.147Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:14:53.147Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409afcc363b6735dc6546"
+  },
+  "authorName": "Sami Khan",
+  "userId": {
+    "$oid": "656409adcc363b6735dc653b"
+  },
+  "recommendation": 1057,
+  "createdAt": {
+    "$date": "2023-11-27T03:14:55.665Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:14:55.665Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409afcc363b6735dc6548"
+  },
+  "authorName": "Suparno Sarkar",
+  "userId": {
+    "$oid": "656409adcc363b6735dc653b"
+  },
+  "recommendation": 483,
+  "createdAt": {
+    "$date": "2023-11-27T03:14:55.666Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:14:55.666Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409afcc363b6735dc654a"
+  },
+  "authorName": "Pranshu Rathee",
+  "userId": {
+    "$oid": "656409adcc363b6735dc653b"
+  },
+  "recommendation": 3333,
+  "createdAt": {
+    "$date": "2023-11-27T03:14:55.667Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:14:55.667Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409afcc363b6735dc654c"
+  },
+  "authorName": "Rohit KVN",
+  "userId": {
+    "$oid": "656409adcc363b6735dc653b"
+  },
+  "recommendation": 1197,
+  "createdAt": {
+    "$date": "2023-11-27T03:14:55.668Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:14:55.668Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409afcc363b6735dc654e"
+  },
+  "authorName": "Mugdha Variyar",
+  "userId": {
+    "$oid": "656409adcc363b6735dc653b"
+  },
+  "recommendation": 3966,
+  "createdAt": {
+    "$date": "2023-11-27T03:14:55.669Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:14:55.669Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409afcc363b6735dc6550"
+  },
+  "authorName": "Raymond Ronamai",
+  "userId": {
+    "$oid": "656409adcc363b6735dc653b"
+  },
+  "recommendation": 1348,
+  "createdAt": {
+    "$date": "2023-11-27T03:14:55.669Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:14:55.669Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409afcc363b6735dc6552"
+  },
+  "authorName": "Ankita Mehta",
+  "userId": {
+    "$oid": "656409adcc363b6735dc653b"
+  },
+  "recommendation": 1904,
+  "createdAt": {
+    "$date": "2023-11-27T03:14:55.670Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:14:55.670Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409afcc363b6735dc6554"
+  },
+  "authorName": "Prarthna Sarkar",
+  "userId": {
+    "$oid": "656409adcc363b6735dc653b"
+  },
+  "recommendation": 2022,
+  "createdAt": {
+    "$date": "2023-11-27T03:14:55.671Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:14:55.671Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409afcc363b6735dc6556"
+  },
+  "authorName": "Suparno Sarkar",
+  "userId": {
+    "$oid": "656409adcc363b6735dc653b"
+  },
+  "recommendation": 3225,
+  "createdAt": {
+    "$date": "2023-11-27T03:14:55.672Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:14:55.672Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409afcc363b6735dc6558"
+  },
+  "authorName": "Prakash Upadhyaya",
+  "userId": {
+    "$oid": "656409adcc363b6735dc653b"
+  },
+  "recommendation": 800,
+  "createdAt": {
+    "$date": "2023-11-27T03:14:55.672Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:14:55.672Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409afcc363b6735dc655a"
+  },
+  "authorName": "Shekhar H Hooli",
+  "userId": {
+    "$oid": "656409adcc363b6735dc653b"
+  },
+  "recommendation": 2161,
+  "createdAt": {
+    "$date": "2023-11-27T03:14:55.673Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:14:55.673Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409afcc363b6735dc655c"
+  },
+  "authorName": "Arkadev Ghoshal",
+  "userId": {
+    "$oid": "656409adcc363b6735dc653b"
+  },
+  "recommendation": 2482,
+  "createdAt": {
+    "$date": "2023-11-27T03:14:55.674Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:14:55.674Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409b1cc363b6735dc6563"
+  },
+  "authorName": "Kalyani Pandey",
+  "userId": {
+    "$oid": "656409afcc363b6735dc6544"
+  },
+  "recommendation": 3879,
+  "createdAt": {
+    "$date": "2023-11-27T03:14:57.023Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:14:57.023Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409aacc363b6735dc651f"
+  },
+  "authorName": "Sushmita Sen",
+  "userId": {
+    "$oid": "656409aacc363b6735dc6516"
+  },
+  "recommendation": 3591,
+  "createdAt": {
+    "$date": "2023-11-27T03:14:50.808Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:14:50.808Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409aacc363b6735dc651d"
+  },
+  "authorName": "S V Krishnamachari",
+  "userId": {
+    "$oid": "656409aacc363b6735dc6516"
+  },
+  "recommendation": 2210,
+  "createdAt": {
+    "$date": "2023-11-27T03:14:50.806Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:14:50.806Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409b1cc363b6735dc656a"
+  },
+  "authorName": "Parismita Goswami",
+  "userId": {
+    "$oid": "656409b1cc363b6735dc6561"
+  },
+  "recommendation": 1892,
+  "createdAt": {
+    "$date": "2023-11-27T03:14:57.721Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:14:57.721Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409b1cc363b6735dc656c"
+  },
+  "authorName": "Ashim Sunam",
+  "userId": {
+    "$oid": "656409b1cc363b6735dc6561"
+  },
+  "recommendation": 1613,
+  "createdAt": {
+    "$date": "2023-11-27T03:14:57.721Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:14:57.721Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409b1cc363b6735dc656e"
+  },
+  "authorName": "Besta Shankar",
+  "userId": {
+    "$oid": "656409b1cc363b6735dc6561"
+  },
+  "recommendation": 2257,
+  "createdAt": {
+    "$date": "2023-11-27T03:14:57.722Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:14:57.722Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409b1cc363b6735dc6570"
+  },
+  "authorName": "Neha Singh",
+  "userId": {
+    "$oid": "656409b1cc363b6735dc6561"
+  },
+  "recommendation": 3702,
+  "createdAt": {
+    "$date": "2023-11-27T03:14:57.723Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:14:57.723Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409b1cc363b6735dc6576"
+  },
+  "authorName": "Tarish Bhatt",
+  "userId": {
+    "$oid": "656409b1cc363b6735dc6561"
+  },
+  "recommendation": 1733,
+  "createdAt": {
+    "$date": "2023-11-27T03:14:57.726Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:14:57.726Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409b1cc363b6735dc6578"
+  },
+  "authorName": "Suparno Sarkar",
+  "userId": {
+    "$oid": "656409b1cc363b6735dc6561"
+  },
+  "recommendation": 3675,
+  "createdAt": {
+    "$date": "2023-11-27T03:14:57.727Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:14:57.727Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409b1cc363b6735dc657a"
+  },
+  "authorName": "Bismah Malik",
+  "userId": {
+    "$oid": "656409b1cc363b6735dc6561"
+  },
+  "recommendation": 2728,
+  "createdAt": {
+    "$date": "2023-11-27T03:14:57.727Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:14:57.727Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409b1cc363b6735dc657c"
+  },
+  "authorName": "S V Krishnamachari",
+  "userId": {
+    "$oid": "656409b1cc363b6735dc6561"
+  },
+  "recommendation": 2709,
+  "createdAt": {
+    "$date": "2023-11-27T03:14:57.727Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:14:57.727Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409b3cc363b6735dc6583"
+  },
+  "authorName": "Anu James",
+  "userId": {
+    "$oid": "656409b1cc363b6735dc6568"
+  },
+  "recommendation": 232,
+  "createdAt": {
+    "$date": "2023-11-27T03:14:59.989Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:14:59.989Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409b3cc363b6735dc6585"
+  },
+  "authorName": "Asmita Sarkar",
+  "userId": {
+    "$oid": "656409b1cc363b6735dc6568"
+  },
+  "recommendation": 2389,
+  "createdAt": {
+    "$date": "2023-11-27T03:14:59.990Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:14:59.990Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409b4cc363b6735dc658c"
+  },
+  "authorName": "Anu James",
+  "userId": {
+    "$oid": "656409b3cc363b6735dc6581"
+  },
+  "recommendation": 1962,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:00.676Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:00.676Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409b4cc363b6735dc6592"
+  },
+  "authorName": "Suparno Sarkar",
+  "userId": {
+    "$oid": "656409b3cc363b6735dc6581"
+  },
+  "recommendation": 3632,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:00.679Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:00.679Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409b4cc363b6735dc658e"
+  },
+  "authorName": "Suparno Sarkar",
+  "userId": {
+    "$oid": "656409b3cc363b6735dc6581"
+  },
+  "recommendation": 3621,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:00.677Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:00.677Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409b4cc363b6735dc6590"
+  },
+  "authorName": "Prakash Upadhyaya",
+  "userId": {
+    "$oid": "656409b3cc363b6735dc6581"
+  },
+  "recommendation": 135,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:00.678Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:00.678Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409b4cc363b6735dc6594"
+  },
+  "authorName": "Neha Singh",
+  "userId": {
+    "$oid": "656409b3cc363b6735dc6581"
+  },
+  "recommendation": 2421,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:00.680Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:00.680Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409b4cc363b6735dc659a"
+  },
+  "authorName": "Anirban Roy",
+  "userId": {
+    "$oid": "656409b3cc363b6735dc6581"
+  },
+  "recommendation": 1145,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:00.681Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:00.681Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409b4cc363b6735dc6598"
+  },
+  "authorName": "Neha Singh",
+  "userId": {
+    "$oid": "656409b3cc363b6735dc6581"
+  },
+  "recommendation": 1877,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:00.681Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:00.681Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409b4cc363b6735dc6596"
+  },
+  "authorName": "Ankita Mehta",
+  "userId": {
+    "$oid": "656409b3cc363b6735dc6581"
+  },
+  "recommendation": 3679,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:00.680Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:00.680Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409b4cc363b6735dc659c"
+  },
+  "authorName": "Bismah Malik",
+  "userId": {
+    "$oid": "656409b3cc363b6735dc6581"
+  },
+  "recommendation": 2765,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:00.682Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:00.682Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409b4cc363b6735dc659e"
+  },
+  "authorName": "Deepak Vikraman",
+  "userId": {
+    "$oid": "656409b3cc363b6735dc6581"
+  },
+  "recommendation": 1564,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:00.683Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:00.683Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409b4cc363b6735dc65a0"
+  },
+  "authorName": "Prakash Upadhyaya",
+  "userId": {
+    "$oid": "656409b3cc363b6735dc6581"
+  },
+  "recommendation": 58,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:00.683Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:00.683Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409b4cc363b6735dc65a4"
+  },
+  "authorName": "Mugdha Variyar",
+  "userId": {
+    "$oid": "656409b3cc363b6735dc6581"
+  },
+  "recommendation": 2609,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:00.684Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:00.684Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409b4cc363b6735dc65a2"
+  },
+  "authorName": "Ashim Sunam",
+  "userId": {
+    "$oid": "656409b3cc363b6735dc6581"
+  },
+  "recommendation": 1516,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:00.684Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:00.684Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409b4cc363b6735dc65a6"
+  },
+  "authorName": "Arkadev Ghoshal",
+  "userId": {
+    "$oid": "656409b3cc363b6735dc6581"
+  },
+  "recommendation": 2321,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:00.685Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:00.685Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409b1cc363b6735dc6572"
+  },
+  "authorName": "Prarthna Sarkar",
+  "userId": {
+    "$oid": "656409b1cc363b6735dc6561"
+  },
+  "recommendation": 3543,
+  "createdAt": {
+    "$date": "2023-11-27T03:14:57.723Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:14:57.723Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409b6cc363b6735dc65ad"
+  },
+  "authorName": "Johnlee Varghese",
+  "userId": {
+    "$oid": "656409b4cc363b6735dc658a"
+  },
+  "recommendation": 3732,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:02.825Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:02.825Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409b6cc363b6735dc65b3"
+  },
+  "authorName": "Sachin Jose",
+  "userId": {
+    "$oid": "656409b4cc363b6735dc658a"
+  },
+  "recommendation": 3354,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:02.827Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:02.827Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409b6cc363b6735dc65b1"
+  },
+  "authorName": "Arkadev Ghoshal",
+  "userId": {
+    "$oid": "656409b4cc363b6735dc658a"
+  },
+  "recommendation": 2853,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:02.826Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:02.826Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409b6cc363b6735dc65af"
+  },
+  "authorName": "Prakash Upadhyaya",
+  "userId": {
+    "$oid": "656409b4cc363b6735dc658a"
+  },
+  "recommendation": 630,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:02.825Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:02.825Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409b6cc363b6735dc65b5"
+  },
+  "authorName": "Asmita Sarkar",
+  "userId": {
+    "$oid": "656409b4cc363b6735dc658a"
+  },
+  "recommendation": 2380,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:02.828Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:02.828Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409b6cc363b6735dc65b7"
+  },
+  "authorName": "Reuters",
+  "userId": {
+    "$oid": "656409b4cc363b6735dc658a"
+  },
+  "recommendation": 2241,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:02.828Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:02.828Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409b6cc363b6735dc65bb"
+  },
+  "authorName": "Sayantan Maitra",
+  "userId": {
+    "$oid": "656409b4cc363b6735dc658a"
+  },
+  "recommendation": 1489,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:02.830Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:02.830Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409b6cc363b6735dc65bd"
+  },
+  "authorName": "Reuters",
+  "userId": {
+    "$oid": "656409b4cc363b6735dc658a"
+  },
+  "recommendation": 3940,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:02.831Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:02.831Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409b6cc363b6735dc65c1"
+  },
+  "authorName": "Rohit KVN",
+  "userId": {
+    "$oid": "656409b4cc363b6735dc658a"
+  },
+  "recommendation": 1090,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:02.831Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:02.831Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409b6cc363b6735dc65c3"
+  },
+  "authorName": "Rohit KVN",
+  "userId": {
+    "$oid": "656409b4cc363b6735dc658a"
+  },
+  "recommendation": 1066,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:02.832Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:02.832Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409b6cc363b6735dc65bf"
+  },
+  "authorName": "IBTimes Staff Reporter",
+  "userId": {
+    "$oid": "656409b4cc363b6735dc658a"
+  },
+  "recommendation": 3826,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:02.831Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:02.831Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409b6cc363b6735dc65c5"
+  },
+  "authorName": "Mugdha Variyar",
+  "userId": {
+    "$oid": "656409b4cc363b6735dc658a"
+  },
+  "recommendation": 2682,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:02.832Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:02.832Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409b6cc363b6735dc65c7"
+  },
+  "authorName": "Neha Singh",
+  "userId": {
+    "$oid": "656409b4cc363b6735dc658a"
+  },
+  "recommendation": 2685,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:02.833Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:02.833Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409b7cc363b6735dc65ce"
+  },
+  "authorName": "Sachin Jose",
+  "userId": {
+    "$oid": "656409b6cc363b6735dc65ab"
+  },
+  "recommendation": 3321,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:03.735Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:03.735Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409b7cc363b6735dc65d0"
+  },
+  "authorName": "Neha Singh",
+  "userId": {
+    "$oid": "656409b6cc363b6735dc65ab"
+  },
+  "recommendation": 2792,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:03.736Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:03.736Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409b7cc363b6735dc65d2"
+  },
+  "authorName": "Mugdha Variyar",
+  "userId": {
+    "$oid": "656409b6cc363b6735dc65ab"
+  },
+  "recommendation": 2426,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:03.736Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:03.736Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409b7cc363b6735dc65d4"
+  },
+  "authorName": "Raymond Ronamai",
+  "userId": {
+    "$oid": "656409b6cc363b6735dc65ab"
+  },
+  "recommendation": 1076,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:03.737Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:03.737Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409b7cc363b6735dc65d6"
+  },
+  "authorName": "Arjun Varma",
+  "userId": {
+    "$oid": "656409b6cc363b6735dc65ab"
+  },
+  "recommendation": 2625,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:03.738Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:03.738Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409b7cc363b6735dc65d8"
+  },
+  "authorName": "Suparno Sarkar",
+  "userId": {
+    "$oid": "656409b6cc363b6735dc65ab"
+  },
+  "recommendation": 2998,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:03.738Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:03.738Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409b7cc363b6735dc65da"
+  },
+  "authorName": "Mugdha Variyar",
+  "userId": {
+    "$oid": "656409b6cc363b6735dc65ab"
+  },
+  "recommendation": 3083,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:03.739Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:03.739Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409b7cc363b6735dc65dc"
+  },
+  "authorName": "Raymond Ronamai",
+  "userId": {
+    "$oid": "656409b6cc363b6735dc65ab"
+  },
+  "recommendation": 2148,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:03.740Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:03.740Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409b6cc363b6735dc65b9"
+  },
+  "authorName": "Mugdha Variyar",
+  "userId": {
+    "$oid": "656409b4cc363b6735dc658a"
+  },
+  "recommendation": 3935,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:02.829Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:02.829Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409b7cc363b6735dc65e2"
+  },
+  "authorName": "Kalyani Pandey",
+  "userId": {
+    "$oid": "656409b6cc363b6735dc65ab"
+  },
+  "recommendation": 2419,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:03.741Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:03.741Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409b7cc363b6735dc65e0"
+  },
+  "authorName": "Raymond Ronamai",
+  "userId": {
+    "$oid": "656409b6cc363b6735dc65ab"
+  },
+  "recommendation": 1431,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:03.741Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:03.741Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409b7cc363b6735dc65e4"
+  },
+  "authorName": "Suparno Sarkar",
+  "userId": {
+    "$oid": "656409b6cc363b6735dc65ab"
+  },
+  "recommendation": 3484,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:03.742Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:03.742Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409b7cc363b6735dc65e6"
+  },
+  "authorName": "Sayantan Maitra",
+  "userId": {
+    "$oid": "656409b6cc363b6735dc65ab"
+  },
+  "recommendation": 1828,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:03.742Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:03.742Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409b7cc363b6735dc65e8"
+  },
+  "authorName": "Raymond Ronamai",
+  "userId": {
+    "$oid": "656409b6cc363b6735dc65ab"
+  },
+  "recommendation": 1372,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:03.743Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:03.743Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409b1cc363b6735dc6574"
+  },
+  "authorName": "Prarthna Sarkar",
+  "userId": {
+    "$oid": "656409b1cc363b6735dc6561"
+  },
+  "recommendation": 3521,
+  "createdAt": {
+    "$date": "2023-11-27T03:14:57.724Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:14:57.724Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409b7cc363b6735dc65de"
+  },
+  "authorName": "Rohit KVN",
+  "userId": {
+    "$oid": "656409b6cc363b6735dc65ab"
+  },
+  "recommendation": 1301,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:03.740Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:03.740Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409b9cc363b6735dc65ef"
+  },
+  "authorName": "Ankita Mehta",
+  "userId": {
+    "$oid": "656409b7cc363b6735dc65cc"
+  },
+  "recommendation": 3174,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:05.761Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:05.761Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409b9cc363b6735dc65f1"
+  },
+  "authorName": "Sushmita Sen",
+  "userId": {
+    "$oid": "656409b7cc363b6735dc65cc"
+  },
+  "recommendation": 3452,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:05.762Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:05.762Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409b9cc363b6735dc65f3"
+  },
+  "authorName": "Ankita Mehta",
+  "userId": {
+    "$oid": "656409b7cc363b6735dc65cc"
+  },
+  "recommendation": 1903,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:05.763Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:05.763Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409b9cc363b6735dc65f7"
+  },
+  "authorName": "Besta Shankar",
+  "userId": {
+    "$oid": "656409b7cc363b6735dc65cc"
+  },
+  "recommendation": 3978,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:05.764Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:05.764Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409b9cc363b6735dc65f9"
+  },
+  "authorName": "Johnlee Varghese",
+  "userId": {
+    "$oid": "656409b7cc363b6735dc65cc"
+  },
+  "recommendation": 3404,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:05.765Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:05.765Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409b9cc363b6735dc65f5"
+  },
+  "authorName": "Nicy V.P",
+  "userId": {
+    "$oid": "656409b7cc363b6735dc65cc"
+  },
+  "recommendation": 354,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:05.764Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:05.764Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409b9cc363b6735dc65fb"
+  },
+  "authorName": "Mugdha Variyar",
+  "userId": {
+    "$oid": "656409b7cc363b6735dc65cc"
+  },
+  "recommendation": 3757,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:05.765Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:05.765Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409b9cc363b6735dc65fd"
+  },
+  "authorName": "Mugdha Variyar",
+  "userId": {
+    "$oid": "656409b7cc363b6735dc65cc"
+  },
+  "recommendation": 2616,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:05.766Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:05.766Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409b9cc363b6735dc6601"
+  },
+  "authorName": "Sami Khan",
+  "userId": {
+    "$oid": "656409b7cc363b6735dc65cc"
+  },
+  "recommendation": 943,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:05.767Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:05.767Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409b9cc363b6735dc65ff"
+  },
+  "authorName": "Prarthna Sarkar",
+  "userId": {
+    "$oid": "656409b7cc363b6735dc65cc"
+  },
+  "recommendation": 3498,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:05.767Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:05.767Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409b9cc363b6735dc6607"
+  },
+  "authorName": "Anu James",
+  "userId": {
+    "$oid": "656409b7cc363b6735dc65cc"
+  },
+  "recommendation": 1863,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:05.770Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:05.770Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409b9cc363b6735dc6609"
+  },
+  "authorName": "Besta Shankar",
+  "userId": {
+    "$oid": "656409b7cc363b6735dc65cc"
+  },
+  "recommendation": 2295,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:05.770Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:05.770Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409b9cc363b6735dc660b"
+  },
+  "authorName": "Ankita Mehta",
+  "userId": {
+    "$oid": "656409b7cc363b6735dc65cc"
+  },
+  "recommendation": 2556,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:05.771Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:05.771Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bacc363b6735dc6612"
+  },
+  "authorName": "Shekhar H Hooli",
+  "userId": {
+    "$oid": "656409b9cc363b6735dc65ed"
+  },
+  "recommendation": 437,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:06.459Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:06.459Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bacc363b6735dc6614"
+  },
+  "authorName": "Anu James",
+  "userId": {
+    "$oid": "656409b9cc363b6735dc65ed"
+  },
+  "recommendation": 1846,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:06.461Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:06.461Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bacc363b6735dc661a"
+  },
+  "authorName": "Suparno Sarkar",
+  "userId": {
+    "$oid": "656409b9cc363b6735dc65ed"
+  },
+  "recommendation": 555,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:06.463Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:06.463Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bacc363b6735dc6616"
+  },
+  "authorName": "Deepak Vikraman",
+  "userId": {
+    "$oid": "656409b9cc363b6735dc65ed"
+  },
+  "recommendation": 1696,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:06.462Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:06.462Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bacc363b6735dc661c"
+  },
+  "authorName": "Kalyani Pandey",
+  "userId": {
+    "$oid": "656409b9cc363b6735dc65ed"
+  },
+  "recommendation": 2477,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:06.464Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:06.464Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bacc363b6735dc6618"
+  },
+  "authorName": "Devyani Sultania",
+  "userId": {
+    "$oid": "656409b9cc363b6735dc65ed"
+  },
+  "recommendation": 13,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:06.463Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:06.463Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bacc363b6735dc661e"
+  },
+  "authorName": "Mugdha Variyar",
+  "userId": {
+    "$oid": "656409b9cc363b6735dc65ed"
+  },
+  "recommendation": 3047,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:06.465Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:06.465Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bacc363b6735dc6620"
+  },
+  "authorName": "Rohit KVN",
+  "userId": {
+    "$oid": "656409b9cc363b6735dc65ed"
+  },
+  "recommendation": 896,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:06.465Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:06.465Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bacc363b6735dc6624"
+  },
+  "authorName": "Anu James",
+  "userId": {
+    "$oid": "656409b9cc363b6735dc65ed"
+  },
+  "recommendation": 141,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:06.467Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:06.467Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bacc363b6735dc6622"
+  },
+  "authorName": "Aditya Bhat",
+  "userId": {
+    "$oid": "656409b9cc363b6735dc65ed"
+  },
+  "recommendation": 2637,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:06.466Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:06.466Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bacc363b6735dc6626"
+  },
+  "authorName": "Rohit KVN",
+  "userId": {
+    "$oid": "656409b9cc363b6735dc65ed"
+  },
+  "recommendation": 1376,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:06.468Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:06.468Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bacc363b6735dc6628"
+  },
+  "authorName": "Sayantan Maitra",
+  "userId": {
+    "$oid": "656409b9cc363b6735dc65ed"
+  },
+  "recommendation": 1629,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:06.468Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:06.468Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bacc363b6735dc662a"
+  },
+  "authorName": "Neha Singh",
+  "userId": {
+    "$oid": "656409b9cc363b6735dc65ed"
+  },
+  "recommendation": 3233,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:06.468Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:06.468Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bacc363b6735dc662c"
+  },
+  "authorName": "Prakash Upadhyaya",
+  "userId": {
+    "$oid": "656409b9cc363b6735dc65ed"
+  },
+  "recommendation": 768,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:06.469Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:06.469Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bacc363b6735dc662e"
+  },
+  "authorName": "Asmita Sarkar",
+  "userId": {
+    "$oid": "656409b9cc363b6735dc65ed"
+  },
+  "recommendation": 2437,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:06.469Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:06.469Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bacc363b6735dc6632"
+  },
+  "authorName": "Johnlee Varghese",
+  "userId": {
+    "$oid": "656409b9cc363b6735dc65ed"
+  },
+  "recommendation": 2617,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:06.470Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:06.470Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bacc363b6735dc6630"
+  },
+  "authorName": "Rohit KVN",
+  "userId": {
+    "$oid": "656409b9cc363b6735dc65ed"
+  },
+  "recommendation": 958,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:06.470Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:06.470Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bacc363b6735dc6634"
+  },
+  "authorName": "Rohit KVN",
+  "userId": {
+    "$oid": "656409b9cc363b6735dc65ed"
+  },
+  "recommendation": 1271,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:06.471Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:06.471Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409b9cc363b6735dc6603"
+  },
+  "authorName": "Ashim Sunam",
+  "userId": {
+    "$oid": "656409b7cc363b6735dc65cc"
+  },
+  "recommendation": 1691,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:05.768Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:05.768Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409b9cc363b6735dc6605"
+  },
+  "authorName": "Sushmita Sen",
+  "userId": {
+    "$oid": "656409b7cc363b6735dc65cc"
+  },
+  "recommendation": 2174,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:05.769Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:05.769Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bbcc363b6735dc663b"
+  },
+  "authorName": "Sachin Jose",
+  "userId": {
+    "$oid": "656409bacc363b6735dc6610"
+  },
+  "recommendation": 684,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:07.162Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:07.162Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bbcc363b6735dc6641"
+  },
+  "authorName": "Deepak Vikraman",
+  "userId": {
+    "$oid": "656409bacc363b6735dc6610"
+  },
+  "recommendation": 1594,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:07.164Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:07.164Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bbcc363b6735dc663f"
+  },
+  "authorName": "Prarthna Sarkar",
+  "userId": {
+    "$oid": "656409bacc363b6735dc6610"
+  },
+  "recommendation": 2818,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:07.164Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:07.164Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bbcc363b6735dc663d"
+  },
+  "authorName": "Sami Khan",
+  "userId": {
+    "$oid": "656409bacc363b6735dc6610"
+  },
+  "recommendation": 1252,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:07.163Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:07.163Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bbcc363b6735dc6645"
+  },
+  "authorName": "Besta Shankar",
+  "userId": {
+    "$oid": "656409bacc363b6735dc6610"
+  },
+  "recommendation": 2306,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:07.166Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:07.166Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bbcc363b6735dc6643"
+  },
+  "authorName": "Sayantan Maitra",
+  "userId": {
+    "$oid": "656409bacc363b6735dc6610"
+  },
+  "recommendation": 1665,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:07.165Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:07.165Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bbcc363b6735dc6649"
+  },
+  "authorName": "Rohit KVN",
+  "userId": {
+    "$oid": "656409bacc363b6735dc6610"
+  },
+  "recommendation": 908,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:07.167Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:07.167Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bbcc363b6735dc6647"
+  },
+  "authorName": "Shekhar H Hooli",
+  "userId": {
+    "$oid": "656409bacc363b6735dc6610"
+  },
+  "recommendation": 564,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:07.166Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:07.166Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bbcc363b6735dc664b"
+  },
+  "authorName": "Prakash Upadhyaya",
+  "userId": {
+    "$oid": "656409bacc363b6735dc6610"
+  },
+  "recommendation": 604,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:07.167Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:07.167Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bbcc363b6735dc664f"
+  },
+  "authorName": "Prakash Upadhyaya",
+  "userId": {
+    "$oid": "656409bacc363b6735dc6610"
+  },
+  "recommendation": 101,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:07.168Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:07.168Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bbcc363b6735dc664d"
+  },
+  "authorName": "Prakash Upadhyaya",
+  "userId": {
+    "$oid": "656409bacc363b6735dc6610"
+  },
+  "recommendation": 795,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:07.168Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:07.168Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bbcc363b6735dc6651"
+  },
+  "authorName": "Anu James",
+  "userId": {
+    "$oid": "656409bacc363b6735dc6610"
+  },
+  "recommendation": 1897,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:07.169Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:07.169Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bbcc363b6735dc6657"
+  },
+  "authorName": "S V Krishnamachari",
+  "userId": {
+    "$oid": "656409bacc363b6735dc6610"
+  },
+  "recommendation": 2233,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:07.172Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:07.172Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bbcc363b6735dc6659"
+  },
+  "authorName": "S V Krishnamachari",
+  "userId": {
+    "$oid": "656409bacc363b6735dc6610"
+  },
+  "recommendation": 3947,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:07.172Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:07.172Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bbcc363b6735dc665d"
+  },
+  "authorName": "Parismita Goswami",
+  "userId": {
+    "$oid": "656409bacc363b6735dc6610"
+  },
+  "recommendation": 281,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:07.173Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:07.173Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bbcc363b6735dc665b"
+  },
+  "authorName": "Besta Shankar",
+  "userId": {
+    "$oid": "656409bacc363b6735dc6610"
+  },
+  "recommendation": 2308,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:07.173Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:07.173Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bbcc363b6735dc665f"
+  },
+  "authorName": "Sachin Jose",
+  "userId": {
+    "$oid": "656409bacc363b6735dc6610"
+  },
+  "recommendation": 3647,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:07.173Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:07.173Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bbcc363b6735dc6666"
+  },
+  "authorName": "Arkadev Ghoshal",
+  "userId": {
+    "$oid": "656409bbcc363b6735dc6639"
+  },
+  "recommendation": 2677,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:07.840Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:07.840Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bbcc363b6735dc6653"
+  },
+  "authorName": "Shekhar H Hooli",
+  "userId": {
+    "$oid": "656409bacc363b6735dc6610"
+  },
+  "recommendation": 504,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:07.170Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:07.170Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bbcc363b6735dc6655"
+  },
+  "authorName": "Mugdha Variyar",
+  "userId": {
+    "$oid": "656409bacc363b6735dc6610"
+  },
+  "recommendation": 2843,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:07.171Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:07.171Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bccc363b6735dc666d"
+  },
+  "authorName": "Prakash Upadhyaya",
+  "userId": {
+    "$oid": "656409bbcc363b6735dc6664"
+  },
+  "recommendation": 3805,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:08.521Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:08.521Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bccc363b6735dc666f"
+  },
+  "authorName": "Udayan Nag",
+  "userId": {
+    "$oid": "656409bbcc363b6735dc6664"
+  },
+  "recommendation": 3429,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:08.523Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:08.523Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bccc363b6735dc6673"
+  },
+  "authorName": "Reuters",
+  "userId": {
+    "$oid": "656409bbcc363b6735dc6664"
+  },
+  "recommendation": 2241,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:08.524Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:08.524Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bccc363b6735dc6671"
+  },
+  "authorName": "Arjun Varma",
+  "userId": {
+    "$oid": "656409bbcc363b6735dc6664"
+  },
+  "recommendation": 2491,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:08.524Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:08.524Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bccc363b6735dc6677"
+  },
+  "authorName": "Shekhar H Hooli",
+  "userId": {
+    "$oid": "656409bbcc363b6735dc6664"
+  },
+  "recommendation": 2162,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:08.526Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:08.526Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bccc363b6735dc667d"
+  },
+  "authorName": "Gopi Chandra Kharel",
+  "userId": {
+    "$oid": "656409bbcc363b6735dc6664"
+  },
+  "recommendation": 2920,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:08.527Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:08.527Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bccc363b6735dc6679"
+  },
+  "authorName": "Parismita Goswami",
+  "userId": {
+    "$oid": "656409bbcc363b6735dc6664"
+  },
+  "recommendation": 2449,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:08.526Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:08.526Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bccc363b6735dc667b"
+  },
+  "authorName": "Rohit KVN",
+  "userId": {
+    "$oid": "656409bbcc363b6735dc6664"
+  },
+  "recommendation": 1325,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:08.527Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:08.527Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bccc363b6735dc667f"
+  },
+  "authorName": "Sachin Jose",
+  "userId": {
+    "$oid": "656409bbcc363b6735dc6664"
+  },
+  "recommendation": 3354,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:08.528Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:08.528Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bccc363b6735dc6675"
+  },
+  "authorName": "Rohit KVN",
+  "userId": {
+    "$oid": "656409bbcc363b6735dc6664"
+  },
+  "recommendation": 1425,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:08.525Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:08.525Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bccc363b6735dc6681"
+  },
+  "authorName": "Brinda Das",
+  "userId": {
+    "$oid": "656409bbcc363b6735dc6664"
+  },
+  "recommendation": 3415,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:08.529Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:08.529Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bccc363b6735dc6683"
+  },
+  "authorName": "Rohit KVN",
+  "userId": {
+    "$oid": "656409bbcc363b6735dc6664"
+  },
+  "recommendation": 958,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:08.530Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:08.530Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bccc363b6735dc6689"
+  },
+  "authorName": "Prakash Upadhyaya",
+  "userId": {
+    "$oid": "656409bbcc363b6735dc6664"
+  },
+  "recommendation": 126,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:08.533Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:08.533Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bccc363b6735dc668b"
+  },
+  "authorName": "Ankita Mehta",
+  "userId": {
+    "$oid": "656409bbcc363b6735dc6664"
+  },
+  "recommendation": 2386,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:08.533Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:08.533Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bdcc363b6735dc6692"
+  },
+  "authorName": "Shekhar H Hooli",
+  "userId": {
+    "$oid": "656409bccc363b6735dc666b"
+  },
+  "recommendation": 528,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:09.203Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:09.203Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bdcc363b6735dc6694"
+  },
+  "authorName": "Rohit KVN",
+  "userId": {
+    "$oid": "656409bccc363b6735dc666b"
+  },
+  "recommendation": 1256,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:09.204Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:09.204Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bdcc363b6735dc6698"
+  },
+  "authorName": "Shekhar H Hooli",
+  "userId": {
+    "$oid": "656409bccc363b6735dc666b"
+  },
+  "recommendation": 524,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:09.205Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:09.205Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bdcc363b6735dc6696"
+  },
+  "authorName": "Ashim Sunam",
+  "userId": {
+    "$oid": "656409bccc363b6735dc666b"
+  },
+  "recommendation": 1778,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:09.204Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:09.204Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bdcc363b6735dc669a"
+  },
+  "authorName": "Mugdha Variyar",
+  "userId": {
+    "$oid": "656409bccc363b6735dc666b"
+  },
+  "recommendation": 2690,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:09.206Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:09.206Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bdcc363b6735dc669e"
+  },
+  "authorName": "Anu James",
+  "userId": {
+    "$oid": "656409bccc363b6735dc666b"
+  },
+  "recommendation": 1857,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:09.207Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:09.207Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bdcc363b6735dc669c"
+  },
+  "authorName": "Neha Singh",
+  "userId": {
+    "$oid": "656409bccc363b6735dc666b"
+  },
+  "recommendation": 2601,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:09.206Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:09.206Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bdcc363b6735dc66a6"
+  },
+  "authorName": "IANS",
+  "userId": {
+    "$oid": "656409bccc363b6735dc666b"
+  },
+  "recommendation": 2252,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:09.209Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:09.209Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bdcc363b6735dc66a2"
+  },
+  "authorName": "Rajarshi Majumdar",
+  "userId": {
+    "$oid": "656409bccc363b6735dc666b"
+  },
+  "recommendation": 1666,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:09.208Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:09.208Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bdcc363b6735dc66a0"
+  },
+  "authorName": "Prakash Upadhyaya",
+  "userId": {
+    "$oid": "656409bccc363b6735dc666b"
+  },
+  "recommendation": 197,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:09.207Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:09.207Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bdcc363b6735dc66a4"
+  },
+  "authorName": "Brinda Das",
+  "userId": {
+    "$oid": "656409bccc363b6735dc666b"
+  },
+  "recommendation": 3016,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:09.208Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:09.208Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bdcc363b6735dc66a8"
+  },
+  "authorName": "Anu James",
+  "userId": {
+    "$oid": "656409bccc363b6735dc666b"
+  },
+  "recommendation": 2025,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:09.209Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:09.209Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bccc363b6735dc6685"
+  },
+  "authorName": "Rohit KVN",
+  "userId": {
+    "$oid": "656409bbcc363b6735dc6664"
+  },
+  "recommendation": 1068,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:08.531Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:08.531Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bccc363b6735dc6687"
+  },
+  "authorName": "Rohit KVN",
+  "userId": {
+    "$oid": "656409bbcc363b6735dc6664"
+  },
+  "recommendation": 1011,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:08.532Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:08.532Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bdcc363b6735dc66af"
+  },
+  "authorName": "Brinda Das",
+  "userId": {
+    "$oid": "656409bdcc363b6735dc6690"
+  },
+  "recommendation": 3099,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:09.885Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:09.885Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bdcc363b6735dc66b3"
+  },
+  "authorName": "Sangeetha Seshagiri",
+  "userId": {
+    "$oid": "656409bdcc363b6735dc6690"
+  },
+  "recommendation": 522,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:09.886Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:09.886Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bdcc363b6735dc66b1"
+  },
+  "authorName": "Shekhar H Hooli",
+  "userId": {
+    "$oid": "656409bdcc363b6735dc6690"
+  },
+  "recommendation": 420,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:09.886Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:09.886Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409becc363b6735dc66ba"
+  },
+  "authorName": "S V Krishnamachari",
+  "userId": {
+    "$oid": "656409bdcc363b6735dc66ad"
+  },
+  "recommendation": 3947,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:10.563Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:10.563Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409becc363b6735dc66be"
+  },
+  "authorName": "Rohit KVN",
+  "userId": {
+    "$oid": "656409bdcc363b6735dc66ad"
+  },
+  "recommendation": 897,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:10.564Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:10.564Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409becc363b6735dc66bc"
+  },
+  "authorName": "Ashim Sunam",
+  "userId": {
+    "$oid": "656409bdcc363b6735dc66ad"
+  },
+  "recommendation": 1546,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:10.564Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:10.564Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409becc363b6735dc66c2"
+  },
+  "authorName": "Arkadev Ghoshal",
+  "userId": {
+    "$oid": "656409bdcc363b6735dc66ad"
+  },
+  "recommendation": 2708,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:10.565Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:10.565Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409becc363b6735dc66c0"
+  },
+  "authorName": "Aditya Bhat",
+  "userId": {
+    "$oid": "656409bdcc363b6735dc66ad"
+  },
+  "recommendation": 1174,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:10.565Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:10.565Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409becc363b6735dc66c4"
+  },
+  "authorName": "Ashim Sunam",
+  "userId": {
+    "$oid": "656409bdcc363b6735dc66ad"
+  },
+  "recommendation": 1581,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:10.566Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:10.566Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409becc363b6735dc66c8"
+  },
+  "authorName": "IANS",
+  "userId": {
+    "$oid": "656409bdcc363b6735dc66ad"
+  },
+  "recommendation": 3075,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:10.567Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:10.567Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409becc363b6735dc66c6"
+  },
+  "authorName": "Prakash Upadhyaya",
+  "userId": {
+    "$oid": "656409bdcc363b6735dc66ad"
+  },
+  "recommendation": 91,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:10.567Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:10.567Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409becc363b6735dc66cc"
+  },
+  "authorName": "Shekhar H Hooli",
+  "userId": {
+    "$oid": "656409bdcc363b6735dc66ad"
+  },
+  "recommendation": 740,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:10.568Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:10.568Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409becc363b6735dc66ca"
+  },
+  "authorName": "Ashim Sunam",
+  "userId": {
+    "$oid": "656409bdcc363b6735dc66ad"
+  },
+  "recommendation": 1496,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:10.568Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:10.568Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409becc363b6735dc66ce"
+  },
+  "authorName": "Bismah Malik",
+  "userId": {
+    "$oid": "656409bdcc363b6735dc66ad"
+  },
+  "recommendation": 2596,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:10.569Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:10.569Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bfcc363b6735dc66d5"
+  },
+  "authorName": "Sachin Jose",
+  "userId": {
+    "$oid": "656409becc363b6735dc66b8"
+  },
+  "recommendation": 3656,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:11.243Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:11.243Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bfcc363b6735dc66d7"
+  },
+  "authorName": "Johnlee Varghese",
+  "userId": {
+    "$oid": "656409becc363b6735dc66b8"
+  },
+  "recommendation": 3748,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:11.245Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:11.245Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bfcc363b6735dc66d9"
+  },
+  "authorName": "Prarthna Sarkar",
+  "userId": {
+    "$oid": "656409becc363b6735dc66b8"
+  },
+  "recommendation": 3141,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:11.246Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:11.246Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bfcc363b6735dc66dd"
+  },
+  "authorName": "Arkadev Ghoshal",
+  "userId": {
+    "$oid": "656409becc363b6735dc66b8"
+  },
+  "recommendation": 2482,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:11.247Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:11.247Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bfcc363b6735dc66df"
+  },
+  "authorName": "Anu James",
+  "userId": {
+    "$oid": "656409becc363b6735dc66b8"
+  },
+  "recommendation": 448,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:11.248Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:11.248Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bfcc363b6735dc66db"
+  },
+  "authorName": "Anu James",
+  "userId": {
+    "$oid": "656409becc363b6735dc66b8"
+  },
+  "recommendation": 1923,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:11.247Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:11.247Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bfcc363b6735dc66e1"
+  },
+  "authorName": "Nicy V.P",
+  "userId": {
+    "$oid": "656409becc363b6735dc66b8"
+  },
+  "recommendation": 2130,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:11.249Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:11.249Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bfcc363b6735dc66e5"
+  },
+  "authorName": "Arkadev Ghoshal",
+  "userId": {
+    "$oid": "656409becc363b6735dc66b8"
+  },
+  "recommendation": 2332,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:11.250Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:11.250Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bfcc363b6735dc66e3"
+  },
+  "authorName": "Sayantan Maitra",
+  "userId": {
+    "$oid": "656409becc363b6735dc66b8"
+  },
+  "recommendation": 1640,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:11.249Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:11.249Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bfcc363b6735dc66e9"
+  },
+  "authorName": "Prarthna Sarkar",
+  "userId": {
+    "$oid": "656409becc363b6735dc66b8"
+  },
+  "recommendation": 3173,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:11.251Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:11.251Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bfcc363b6735dc66e7"
+  },
+  "authorName": "Neha Singh",
+  "userId": {
+    "$oid": "656409becc363b6735dc66b8"
+  },
+  "recommendation": 3245,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:11.250Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:11.250Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bfcc363b6735dc66ed"
+  },
+  "authorName": "Anu James",
+  "userId": {
+    "$oid": "656409becc363b6735dc66b8"
+  },
+  "recommendation": 1891,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:11.252Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:11.252Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bfcc363b6735dc66ef"
+  },
+  "authorName": "Besta Shankar",
+  "userId": {
+    "$oid": "656409becc363b6735dc66b8"
+  },
+  "recommendation": 2307,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:11.252Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:11.252Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bfcc363b6735dc66f1"
+  },
+  "authorName": "Asmita Sarkar",
+  "userId": {
+    "$oid": "656409becc363b6735dc66b8"
+  },
+  "recommendation": 2808,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:11.253Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:11.253Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bfcc363b6735dc66f3"
+  },
+  "authorName": "Asmita Sarkar",
+  "userId": {
+    "$oid": "656409becc363b6735dc66b8"
+  },
+  "recommendation": 2768,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:11.253Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:11.253Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bfcc363b6735dc66eb"
+  },
+  "authorName": "Prakash Upadhyaya",
+  "userId": {
+    "$oid": "656409becc363b6735dc66b8"
+  },
+  "recommendation": 610,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:11.251Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:11.251Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bfcc363b6735dc66fe"
+  },
+  "authorName": "Arkadev Ghoshal",
+  "userId": {
+    "$oid": "656409bfcc363b6735dc66d3"
+  },
+  "recommendation": 2525,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:11.923Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:11.923Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bfcc363b6735dc66fa"
+  },
+  "authorName": "Rohit KVN",
+  "userId": {
+    "$oid": "656409bfcc363b6735dc66d3"
+  },
+  "recommendation": 962,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:11.922Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:11.922Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bfcc363b6735dc66fc"
+  },
+  "authorName": "Asmita Sarkar",
+  "userId": {
+    "$oid": "656409bfcc363b6735dc66d3"
+  },
+  "recommendation": 3311,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:11.923Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:11.923Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bfcc363b6735dc6700"
+  },
+  "authorName": "Mugdha Variyar",
+  "userId": {
+    "$oid": "656409bfcc363b6735dc66d3"
+  },
+  "recommendation": 3763,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:11.924Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:11.924Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bfcc363b6735dc6704"
+  },
+  "authorName": "Rohit KVN",
+  "userId": {
+    "$oid": "656409bfcc363b6735dc66d3"
+  },
+  "recommendation": 878,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:11.925Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:11.925Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bfcc363b6735dc6702"
+  },
+  "authorName": "Suparno Sarkar",
+  "userId": {
+    "$oid": "656409bfcc363b6735dc66d3"
+  },
+  "recommendation": 3147,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:11.925Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:11.925Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bfcc363b6735dc6706"
+  },
+  "authorName": "S V Krishnamachari",
+  "userId": {
+    "$oid": "656409bfcc363b6735dc66d3"
+  },
+  "recommendation": 3952,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:11.926Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:11.926Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bfcc363b6735dc6708"
+  },
+  "authorName": "Sami Khan",
+  "userId": {
+    "$oid": "656409bfcc363b6735dc66d3"
+  },
+  "recommendation": 915,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:11.926Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:11.926Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bfcc363b6735dc670e"
+  },
+  "authorName": "Niranjan R",
+  "userId": {
+    "$oid": "656409bfcc363b6735dc66d3"
+  },
+  "recommendation": 1347,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:11.928Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:11.928Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bfcc363b6735dc6710"
+  },
+  "authorName": "Besta Shankar",
+  "userId": {
+    "$oid": "656409bfcc363b6735dc66d3"
+  },
+  "recommendation": 2271,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:11.929Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:11.929Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bfcc363b6735dc6712"
+  },
+  "authorName": "Sushmita Sen",
+  "userId": {
+    "$oid": "656409bfcc363b6735dc66d3"
+  },
+  "recommendation": 3571,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:11.929Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:11.929Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bfcc363b6735dc670a"
+  },
+  "authorName": "Prakash Upadhyaya",
+  "userId": {
+    "$oid": "656409bfcc363b6735dc66d3"
+  },
+  "recommendation": 552,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:11.927Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:11.927Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bfcc363b6735dc670c"
+  },
+  "authorName": "Rohit KVN",
+  "userId": {
+    "$oid": "656409bfcc363b6735dc66d3"
+  },
+  "recommendation": 988,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:11.927Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:11.927Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bfcc363b6735dc6718"
+  },
+  "authorName": "Prarthna Sarkar",
+  "userId": {
+    "$oid": "656409bfcc363b6735dc66d3"
+  },
+  "recommendation": 3453,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:11.931Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:11.931Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bfcc363b6735dc6714"
+  },
+  "authorName": "Anu James",
+  "userId": {
+    "$oid": "656409bfcc363b6735dc66d3"
+  },
+  "recommendation": 451,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:11.930Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:11.930Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bfcc363b6735dc6716"
+  },
+  "authorName": "Devyani Sultania",
+  "userId": {
+    "$oid": "656409bfcc363b6735dc66d3"
+  },
+  "recommendation": 9,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:11.930Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:11.930Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c0cc363b6735dc6723"
+  },
+  "authorName": "Prakash Upadhyaya",
+  "userId": {
+    "$oid": "656409bfcc363b6735dc66f8"
+  },
+  "recommendation": 717,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:12.591Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:12.591Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c0cc363b6735dc6721"
+  },
+  "authorName": "Anu James",
+  "userId": {
+    "$oid": "656409bfcc363b6735dc66f8"
+  },
+  "recommendation": 686,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:12.591Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:12.591Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409bfcc363b6735dc671a"
+  },
+  "authorName": "Besta Shankar",
+  "userId": {
+    "$oid": "656409bfcc363b6735dc66d3"
+  },
+  "recommendation": 2312,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:11.931Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:11.931Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c1cc363b6735dc6732"
+  },
+  "authorName": "Sushmita Sen",
+  "userId": {
+    "$oid": "656409c0cc363b6735dc671f"
+  },
+  "recommendation": 3688,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:13.285Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:13.285Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c1cc363b6735dc6730"
+  },
+  "authorName": "Arkadev Ghoshal",
+  "userId": {
+    "$oid": "656409c0cc363b6735dc671f"
+  },
+  "recommendation": 2367,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:13.285Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:13.285Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c1cc363b6735dc672c"
+  },
+  "authorName": "Rohit KVN",
+  "userId": {
+    "$oid": "656409c0cc363b6735dc671f"
+  },
+  "recommendation": 1354,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:13.283Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:13.283Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c1cc363b6735dc672a"
+  },
+  "authorName": "Mugdha Variyar",
+  "userId": {
+    "$oid": "656409c0cc363b6735dc671f"
+  },
+  "recommendation": 2735,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:13.282Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:13.282Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c1cc363b6735dc6734"
+  },
+  "authorName": "Rajarshi Majumdar",
+  "userId": {
+    "$oid": "656409c0cc363b6735dc671f"
+  },
+  "recommendation": 1540,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:13.287Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:13.287Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c1cc363b6735dc673a"
+  },
+  "authorName": "Aditya Bhat",
+  "userId": {
+    "$oid": "656409c0cc363b6735dc671f"
+  },
+  "recommendation": 1436,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:13.289Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:13.289Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c1cc363b6735dc672e"
+  },
+  "authorName": "Prakash Upadhyaya",
+  "userId": {
+    "$oid": "656409c0cc363b6735dc671f"
+  },
+  "recommendation": 75,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:13.284Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:13.284Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c1cc363b6735dc6736"
+  },
+  "authorName": "Nicy V.P",
+  "userId": {
+    "$oid": "656409c0cc363b6735dc671f"
+  },
+  "recommendation": 375,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:13.287Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:13.287Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c1cc363b6735dc6738"
+  },
+  "authorName": "Rohit KVN",
+  "userId": {
+    "$oid": "656409c0cc363b6735dc671f"
+  },
+  "recommendation": 1484,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:13.288Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:13.288Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c1cc363b6735dc673e"
+  },
+  "authorName": "Prarthna Sarkar",
+  "userId": {
+    "$oid": "656409c0cc363b6735dc671f"
+  },
+  "recommendation": 3585,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:13.290Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:13.290Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c1cc363b6735dc673c"
+  },
+  "authorName": "Mugdha Variyar",
+  "userId": {
+    "$oid": "656409c0cc363b6735dc671f"
+  },
+  "recommendation": 2592,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:13.290Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:13.290Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c1cc363b6735dc6742"
+  },
+  "authorName": "Anu James",
+  "userId": {
+    "$oid": "656409c0cc363b6735dc671f"
+  },
+  "recommendation": 392,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:13.292Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:13.292Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c1cc363b6735dc6744"
+  },
+  "authorName": "Sushmita Sen",
+  "userId": {
+    "$oid": "656409c0cc363b6735dc671f"
+  },
+  "recommendation": 2569,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:13.292Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:13.292Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c1cc363b6735dc6740"
+  },
+  "authorName": "Pranshu Rathee",
+  "userId": {
+    "$oid": "656409c0cc363b6735dc671f"
+  },
+  "recommendation": 3324,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:13.291Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:13.291Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c1cc363b6735dc6746"
+  },
+  "authorName": "Mugdha Variyar",
+  "userId": {
+    "$oid": "656409c0cc363b6735dc671f"
+  },
+  "recommendation": 3057,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:13.293Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:13.293Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c1cc363b6735dc6748"
+  },
+  "authorName": "Deepak Vikraman",
+  "userId": {
+    "$oid": "656409c0cc363b6735dc671f"
+  },
+  "recommendation": 1816,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:13.294Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:13.294Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c1cc363b6735dc674f"
+  },
+  "authorName": "Nicy V.P",
+  "userId": {
+    "$oid": "656409c1cc363b6735dc6728"
+  },
+  "recommendation": 2193,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:13.965Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:13.965Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c1cc363b6735dc6751"
+  },
+  "authorName": "Parismita Goswami",
+  "userId": {
+    "$oid": "656409c1cc363b6735dc6728"
+  },
+  "recommendation": 3208,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:13.967Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:13.967Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c1cc363b6735dc6753"
+  },
+  "authorName": "Bismah Malik",
+  "userId": {
+    "$oid": "656409c1cc363b6735dc6728"
+  },
+  "recommendation": 2730,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:13.968Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:13.968Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c1cc363b6735dc6755"
+  },
+  "authorName": "IBTimes Staff Reporter",
+  "userId": {
+    "$oid": "656409c1cc363b6735dc6728"
+  },
+  "recommendation": 3691,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:13.969Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:13.969Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c1cc363b6735dc6757"
+  },
+  "authorName": "Sushmita Sen",
+  "userId": {
+    "$oid": "656409c1cc363b6735dc6728"
+  },
+  "recommendation": 2944,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:13.969Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:13.969Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c1cc363b6735dc675b"
+  },
+  "authorName": "Mugdha Variyar",
+  "userId": {
+    "$oid": "656409c1cc363b6735dc6728"
+  },
+  "recommendation": 2831,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:13.971Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:13.971Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c1cc363b6735dc675f"
+  },
+  "authorName": "Ashim Sunam",
+  "userId": {
+    "$oid": "656409c1cc363b6735dc6728"
+  },
+  "recommendation": 1758,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:13.972Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:13.972Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c1cc363b6735dc6759"
+  },
+  "authorName": "Neha Singh",
+  "userId": {
+    "$oid": "656409c1cc363b6735dc6728"
+  },
+  "recommendation": 3342,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:13.970Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:13.970Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c1cc363b6735dc675d"
+  },
+  "authorName": "Anu James",
+  "userId": {
+    "$oid": "656409c1cc363b6735dc6728"
+  },
+  "recommendation": 478,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:13.972Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:13.972Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c1cc363b6735dc676b"
+  },
+  "authorName": "Prakash Upadhyaya",
+  "userId": {
+    "$oid": "656409c1cc363b6735dc6728"
+  },
+  "recommendation": 50,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:13.976Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:13.976Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c1cc363b6735dc6763"
+  },
+  "authorName": "Rohit KVN",
+  "userId": {
+    "$oid": "656409c1cc363b6735dc6728"
+  },
+  "recommendation": 1312,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:13.973Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:13.973Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c1cc363b6735dc6761"
+  },
+  "authorName": "Suparno Sarkar",
+  "userId": {
+    "$oid": "656409c1cc363b6735dc6728"
+  },
+  "recommendation": 3632,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:13.973Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:13.973Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c1cc363b6735dc6767"
+  },
+  "authorName": "Shekhar H Hooli",
+  "userId": {
+    "$oid": "656409c1cc363b6735dc6728"
+  },
+  "recommendation": 633,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:13.974Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:13.974Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c1cc363b6735dc6765"
+  },
+  "authorName": "Rohit KVN",
+  "userId": {
+    "$oid": "656409c1cc363b6735dc6728"
+  },
+  "recommendation": 1107,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:13.974Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:13.974Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c1cc363b6735dc6769"
+  },
+  "authorName": "Rohit KVN",
+  "userId": {
+    "$oid": "656409c1cc363b6735dc6728"
+  },
+  "recommendation": 1125,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:13.975Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:13.975Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c1cc363b6735dc676f"
+  },
+  "authorName": "Rohit KVN",
+  "userId": {
+    "$oid": "656409c1cc363b6735dc6728"
+  },
+  "recommendation": 1248,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:13.977Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:13.977Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c1cc363b6735dc676d"
+  },
+  "authorName": "Devyani Sultania",
+  "userId": {
+    "$oid": "656409c1cc363b6735dc6728"
+  },
+  "recommendation": 2346,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:13.976Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:13.976Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c2cc363b6735dc6778"
+  },
+  "authorName": "Mangala Dilip",
+  "userId": {
+    "$oid": "656409c1cc363b6735dc674d"
+  },
+  "recommendation": 2356,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:14.650Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:14.650Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c2cc363b6735dc677a"
+  },
+  "authorName": "Reuters",
+  "userId": {
+    "$oid": "656409c1cc363b6735dc674d"
+  },
+  "recommendation": 3970,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:14.652Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:14.652Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c2cc363b6735dc677e"
+  },
+  "authorName": "Anu James",
+  "userId": {
+    "$oid": "656409c1cc363b6735dc674d"
+  },
+  "recommendation": 696,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:14.653Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:14.653Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c2cc363b6735dc677c"
+  },
+  "authorName": "IBTimes Staff Reporter",
+  "userId": {
+    "$oid": "656409c1cc363b6735dc674d"
+  },
+  "recommendation": 3665,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:14.652Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:14.652Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c2cc363b6735dc6780"
+  },
+  "authorName": "Anu James",
+  "userId": {
+    "$oid": "656409c1cc363b6735dc674d"
+  },
+  "recommendation": 2115,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:14.653Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:14.653Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c2cc363b6735dc6782"
+  },
+  "authorName": "Rohit KVN",
+  "userId": {
+    "$oid": "656409c1cc363b6735dc674d"
+  },
+  "recommendation": 1016,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:14.654Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:14.654Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c2cc363b6735dc6786"
+  },
+  "authorName": "Deepak Vikraman",
+  "userId": {
+    "$oid": "656409c1cc363b6735dc674d"
+  },
+  "recommendation": 1594,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:14.656Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:14.656Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c2cc363b6735dc678c"
+  },
+  "authorName": "Devyani Sultania",
+  "userId": {
+    "$oid": "656409c1cc363b6735dc674d"
+  },
+  "recommendation": 2940,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:14.657Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:14.657Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c2cc363b6735dc6790"
+  },
+  "authorName": "Suparno Sarkar",
+  "userId": {
+    "$oid": "656409c1cc363b6735dc674d"
+  },
+  "recommendation": 3162,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:14.659Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:14.659Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c2cc363b6735dc6784"
+  },
+  "authorName": "Rohit KVN",
+  "userId": {
+    "$oid": "656409c1cc363b6735dc674d"
+  },
+  "recommendation": 963,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:14.655Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:14.655Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c2cc363b6735dc678a"
+  },
+  "authorName": "Mugdha Variyar",
+  "userId": {
+    "$oid": "656409c1cc363b6735dc674d"
+  },
+  "recommendation": 2385,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:14.657Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:14.657Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c2cc363b6735dc6788"
+  },
+  "authorName": "Rohit KVN",
+  "userId": {
+    "$oid": "656409c1cc363b6735dc674d"
+  },
+  "recommendation": 1266,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:14.656Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:14.656Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c2cc363b6735dc678e"
+  },
+  "authorName": "Bismah Malik",
+  "userId": {
+    "$oid": "656409c1cc363b6735dc674d"
+  },
+  "recommendation": 2959,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:14.658Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:14.658Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c1cc363b6735dc6771"
+  },
+  "authorName": "Mugdha Variyar",
+  "userId": {
+    "$oid": "656409c1cc363b6735dc6728"
+  },
+  "recommendation": 2649,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:13.978Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:13.978Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c3cc363b6735dc6797"
+  },
+  "authorName": "Anu James",
+  "userId": {
+    "$oid": "656409c2cc363b6735dc6776"
+  },
+  "recommendation": 1887,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:15.323Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:15.323Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c3cc363b6735dc6799"
+  },
+  "authorName": "Kalyani Pandey",
+  "userId": {
+    "$oid": "656409c2cc363b6735dc6776"
+  },
+  "recommendation": 3874,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:15.325Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:15.325Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c3cc363b6735dc679d"
+  },
+  "authorName": "Anu James",
+  "userId": {
+    "$oid": "656409c2cc363b6735dc6776"
+  },
+  "recommendation": 1962,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:15.327Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:15.327Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c3cc363b6735dc679b"
+  },
+  "authorName": "Ankita Mehta",
+  "userId": {
+    "$oid": "656409c2cc363b6735dc6776"
+  },
+  "recommendation": 2037,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:15.326Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:15.326Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c3cc363b6735dc679f"
+  },
+  "authorName": "Shekhar H Hooli",
+  "userId": {
+    "$oid": "656409c2cc363b6735dc6776"
+  },
+  "recommendation": 172,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:15.328Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:15.328Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c3cc363b6735dc67a3"
+  },
+  "authorName": "Nicy V.P",
+  "userId": {
+    "$oid": "656409c2cc363b6735dc6776"
+  },
+  "recommendation": 727,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:15.329Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:15.329Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c3cc363b6735dc67a5"
+  },
+  "authorName": "Prakash Upadhyaya",
+  "userId": {
+    "$oid": "656409c2cc363b6735dc6776"
+  },
+  "recommendation": 102,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:15.330Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:15.330Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c3cc363b6735dc67a9"
+  },
+  "authorName": "Prakash Upadhyaya",
+  "userId": {
+    "$oid": "656409c2cc363b6735dc6776"
+  },
+  "recommendation": 607,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:15.331Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:15.331Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c3cc363b6735dc67a1"
+  },
+  "authorName": "Asmita Sarkar",
+  "userId": {
+    "$oid": "656409c2cc363b6735dc6776"
+  },
+  "recommendation": 2710,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:15.328Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:15.328Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c3cc363b6735dc67a7"
+  },
+  "authorName": "Ankita Mehta",
+  "userId": {
+    "$oid": "656409c2cc363b6735dc6776"
+  },
+  "recommendation": 2943,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:15.330Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:15.330Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c3cc363b6735dc67ad"
+  },
+  "authorName": "Mugdha Variyar",
+  "userId": {
+    "$oid": "656409c2cc363b6735dc6776"
+  },
+  "recommendation": 2425,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:15.332Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:15.332Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c3cc363b6735dc67b1"
+  },
+  "authorName": "Suparno Sarkar",
+  "userId": {
+    "$oid": "656409c2cc363b6735dc6776"
+  },
+  "recommendation": 2887,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:15.333Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:15.333Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c3cc363b6735dc67ab"
+  },
+  "authorName": "Nicy V.P",
+  "userId": {
+    "$oid": "656409c2cc363b6735dc6776"
+  },
+  "recommendation": 654,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:15.332Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:15.332Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c3cc363b6735dc67af"
+  },
+  "authorName": "Rohit KVN",
+  "userId": {
+    "$oid": "656409c2cc363b6735dc6776"
+  },
+  "recommendation": 1105,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:15.333Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:15.333Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c3cc363b6735dc67b3"
+  },
+  "authorName": "Raymond Ronamai",
+  "userId": {
+    "$oid": "656409c2cc363b6735dc6776"
+  },
+  "recommendation": 1073,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:15.334Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:15.334Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c3cc363b6735dc67b5"
+  },
+  "authorName": "Suparno Sarkar",
+  "userId": {
+    "$oid": "656409c2cc363b6735dc6776"
+  },
+  "recommendation": 2889,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:15.335Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:15.335Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c3cc363b6735dc67b7"
+  },
+  "authorName": "Mugdha Variyar",
+  "userId": {
+    "$oid": "656409c2cc363b6735dc6776"
+  },
+  "recommendation": 2592,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:15.336Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:15.336Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c3cc363b6735dc67c0"
+  },
+  "authorName": "Pranshu Rathee",
+  "userId": {
+    "$oid": "656409c3cc363b6735dc6795"
+  },
+  "recommendation": 2961,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:15.997Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:15.997Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c3cc363b6735dc67be"
+  },
+  "authorName": "Anu James",
+  "userId": {
+    "$oid": "656409c3cc363b6735dc6795"
+  },
+  "recommendation": 763,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:15.996Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:15.996Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c3cc363b6735dc67c2"
+  },
+  "authorName": "IANS",
+  "userId": {
+    "$oid": "656409c3cc363b6735dc6795"
+  },
+  "recommendation": 3915,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:15.998Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:15.998Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c4cc363b6735dc67cb"
+  },
+  "authorName": "Arkadev Ghoshal",
+  "userId": {
+    "$oid": "656409c3cc363b6735dc67bc"
+  },
+  "recommendation": 2757,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:16.684Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:16.684Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c4cc363b6735dc67cd"
+  },
+  "authorName": "Anirban Roy",
+  "userId": {
+    "$oid": "656409c3cc363b6735dc67bc"
+  },
+  "recommendation": 1470,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:16.684Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:16.684Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c4cc363b6735dc67d1"
+  },
+  "authorName": "Rohit KVN",
+  "userId": {
+    "$oid": "656409c3cc363b6735dc67bc"
+  },
+  "recommendation": 1200,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:16.685Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:16.685Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c4cc363b6735dc67c9"
+  },
+  "authorName": "Deepak Vikraman",
+  "userId": {
+    "$oid": "656409c3cc363b6735dc67bc"
+  },
+  "recommendation": 1681,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:16.683Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:16.683Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c4cc363b6735dc67cf"
+  },
+  "authorName": "Anu James",
+  "userId": {
+    "$oid": "656409c3cc363b6735dc67bc"
+  },
+  "recommendation": 402,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:16.685Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:16.685Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c4cc363b6735dc67d5"
+  },
+  "authorName": "Besta Shankar",
+  "userId": {
+    "$oid": "656409c3cc363b6735dc67bc"
+  },
+  "recommendation": 3972,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:16.687Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:16.687Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c4cc363b6735dc67d3"
+  },
+  "authorName": "Sami Khan",
+  "userId": {
+    "$oid": "656409c3cc363b6735dc67bc"
+  },
+  "recommendation": 1307,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:16.686Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:16.686Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c4cc363b6735dc67d7"
+  },
+  "authorName": "Kalyani Pandey",
+  "userId": {
+    "$oid": "656409c3cc363b6735dc67bc"
+  },
+  "recommendation": 2179,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:16.687Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:16.687Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c4cc363b6735dc67d9"
+  },
+  "authorName": "Ashim Sunam",
+  "userId": {
+    "$oid": "656409c3cc363b6735dc67bc"
+  },
+  "recommendation": 2074,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:16.688Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:16.688Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c4cc363b6735dc67db"
+  },
+  "authorName": "Neha Singh",
+  "userId": {
+    "$oid": "656409c3cc363b6735dc67bc"
+  },
+  "recommendation": 2905,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:16.688Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:16.688Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c4cc363b6735dc67dd"
+  },
+  "authorName": "Sami Khan",
+  "userId": {
+    "$oid": "656409c3cc363b6735dc67bc"
+  },
+  "recommendation": 1057,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:16.689Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:16.689Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c5cc363b6735dc67e4"
+  },
+  "authorName": "Prarthna Sarkar",
+  "userId": {
+    "$oid": "656409c4cc363b6735dc67c7"
+  },
+  "recommendation": 3190,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:17.356Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:17.356Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c5cc363b6735dc67e6"
+  },
+  "authorName": "Asmita Sarkar",
+  "userId": {
+    "$oid": "656409c4cc363b6735dc67c7"
+  },
+  "recommendation": 1705,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:17.358Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:17.358Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c5cc363b6735dc67ea"
+  },
+  "authorName": "Suparno Sarkar",
+  "userId": {
+    "$oid": "656409c4cc363b6735dc67c7"
+  },
+  "recommendation": 2453,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:17.359Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:17.359Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c5cc363b6735dc67e8"
+  },
+  "authorName": "Mugdha Variyar",
+  "userId": {
+    "$oid": "656409c4cc363b6735dc67c7"
+  },
+  "recommendation": 3373,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:17.358Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:17.358Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c5cc363b6735dc67ec"
+  },
+  "authorName": "Rohit KVN",
+  "userId": {
+    "$oid": "656409c4cc363b6735dc67c7"
+  },
+  "recommendation": 1216,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:17.360Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:17.360Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c5cc363b6735dc67ee"
+  },
+  "authorName": "Sushmita Sen",
+  "userId": {
+    "$oid": "656409c4cc363b6735dc67c7"
+  },
+  "recommendation": 3551,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:17.360Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:17.360Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c5cc363b6735dc67f0"
+  },
+  "authorName": "IBTimes Staff Reporter",
+  "userId": {
+    "$oid": "656409c4cc363b6735dc67c7"
+  },
+  "recommendation": 3826,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:17.361Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:17.361Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c5cc363b6735dc67f2"
+  },
+  "authorName": "Parismita Goswami",
+  "userId": {
+    "$oid": "656409c4cc363b6735dc67c7"
+  },
+  "recommendation": 1899,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:17.361Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:17.361Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c6cc363b6735dc67fb"
+  },
+  "authorName": "Rohit KVN",
+  "userId": {
+    "$oid": "656409c5cc363b6735dc67e2"
+  },
+  "recommendation": 913,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:18.037Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:18.037Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c6cc363b6735dc67f9"
+  },
+  "authorName": "IBTimes Staff Reporter",
+  "userId": {
+    "$oid": "656409c5cc363b6735dc67e2"
+  },
+  "recommendation": 2112,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:18.036Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:18.036Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c6cc363b6735dc67ff"
+  },
+  "authorName": "Devyani Sultania",
+  "userId": {
+    "$oid": "656409c5cc363b6735dc67e2"
+  },
+  "recommendation": 2958,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:18.039Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:18.039Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c6cc363b6735dc67fd"
+  },
+  "authorName": "S V Krishnamachari",
+  "userId": {
+    "$oid": "656409c5cc363b6735dc67e2"
+  },
+  "recommendation": 3905,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:18.038Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:18.038Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c6cc363b6735dc6801"
+  },
+  "authorName": "Ashim Sunam",
+  "userId": {
+    "$oid": "656409c5cc363b6735dc67e2"
+  },
+  "recommendation": 1539,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:18.039Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:18.039Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c6cc363b6735dc6805"
+  },
+  "authorName": "Mugdha Variyar",
+  "userId": {
+    "$oid": "656409c5cc363b6735dc67e2"
+  },
+  "recommendation": 2588,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:18.040Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:18.040Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c6cc363b6735dc6803"
+  },
+  "authorName": "Besta Shankar",
+  "userId": {
+    "$oid": "656409c5cc363b6735dc67e2"
+  },
+  "recommendation": 3951,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:18.040Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:18.040Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c6cc363b6735dc6807"
+  },
+  "authorName": "Raymond Ronamai",
+  "userId": {
+    "$oid": "656409c5cc363b6735dc67e2"
+  },
+  "recommendation": 964,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:18.041Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:18.041Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c6cc363b6735dc6809"
+  },
+  "authorName": "Pranshu Rathee",
+  "userId": {
+    "$oid": "656409c5cc363b6735dc67e2"
+  },
+  "recommendation": 3078,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:18.041Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:18.041Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c6cc363b6735dc680b"
+  },
+  "authorName": "Ankita Mehta",
+  "userId": {
+    "$oid": "656409c5cc363b6735dc67e2"
+  },
+  "recommendation": 826,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:18.042Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:18.042Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c6cc363b6735dc6811"
+  },
+  "authorName": "Ashim Sunam",
+  "userId": {
+    "$oid": "656409c5cc363b6735dc67e2"
+  },
+  "recommendation": 1581,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:18.044Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:18.044Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c6cc363b6735dc680d"
+  },
+  "authorName": "Rohit KVN",
+  "userId": {
+    "$oid": "656409c5cc363b6735dc67e2"
+  },
+  "recommendation": 984,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:18.042Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:18.042Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c6cc363b6735dc6815"
+  },
+  "authorName": "Sayantan Maitra",
+  "userId": {
+    "$oid": "656409c5cc363b6735dc67e2"
+  },
+  "recommendation": 1746,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:18.045Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:18.045Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c6cc363b6735dc680f"
+  },
+  "authorName": "Anu James",
+  "userId": {
+    "$oid": "656409c5cc363b6735dc67e2"
+  },
+  "recommendation": 231,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:18.043Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:18.043Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c6cc363b6735dc6813"
+  },
+  "authorName": "Shekhar H Hooli",
+  "userId": {
+    "$oid": "656409c5cc363b6735dc67e2"
+  },
+  "recommendation": 274,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:18.044Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:18.044Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c6cc363b6735dc6817"
+  },
+  "authorName": "Rohit KVN",
+  "userId": {
+    "$oid": "656409c5cc363b6735dc67e2"
+  },
+  "recommendation": 1334,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:18.045Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:18.045Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c6cc363b6735dc6819"
+  },
+  "authorName": "Rohit KVN",
+  "userId": {
+    "$oid": "656409c5cc363b6735dc67e2"
+  },
+  "recommendation": 883,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:18.046Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:18.046Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c6cc363b6735dc681b"
+  },
+  "authorName": "Shekhar H Hooli",
+  "userId": {
+    "$oid": "656409c5cc363b6735dc67e2"
+  },
+  "recommendation": 109,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:18.047Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:18.047Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c6cc363b6735dc682a"
+  },
+  "authorName": "Sami Khan",
+  "userId": {
+    "$oid": "656409c6cc363b6735dc67f7"
+  },
+  "recommendation": 1434,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:18.709Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:18.709Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c6cc363b6735dc6826"
+  },
+  "authorName": "Ashim Sunam",
+  "userId": {
+    "$oid": "656409c6cc363b6735dc67f7"
+  },
+  "recommendation": 1557,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:18.708Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:18.708Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c6cc363b6735dc6828"
+  },
+  "authorName": "S V Krishnamachari",
+  "userId": {
+    "$oid": "656409c6cc363b6735dc67f7"
+  },
+  "recommendation": 2291,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:18.709Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:18.709Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c6cc363b6735dc6830"
+  },
+  "authorName": "Mugdha Variyar",
+  "userId": {
+    "$oid": "656409c6cc363b6735dc67f7"
+  },
+  "recommendation": 3815,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:18.711Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:18.711Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c6cc363b6735dc682e"
+  },
+  "authorName": "Nicy V.P",
+  "userId": {
+    "$oid": "656409c6cc363b6735dc67f7"
+  },
+  "recommendation": 378,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:18.710Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:18.710Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c6cc363b6735dc682c"
+  },
+  "authorName": "Mugdha Variyar",
+  "userId": {
+    "$oid": "656409c6cc363b6735dc67f7"
+  },
+  "recommendation": 2746,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:18.710Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:18.710Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c6cc363b6735dc6832"
+  },
+  "authorName": "Shekhar H Hooli",
+  "userId": {
+    "$oid": "656409c6cc363b6735dc67f7"
+  },
+  "recommendation": 1958,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:18.711Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:18.711Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c6cc363b6735dc6838"
+  },
+  "authorName": "Anu James",
+  "userId": {
+    "$oid": "656409c6cc363b6735dc67f7"
+  },
+  "recommendation": 450,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:18.713Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:18.713Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c6cc363b6735dc6836"
+  },
+  "authorName": "Mugdha Variyar",
+  "userId": {
+    "$oid": "656409c6cc363b6735dc67f7"
+  },
+  "recommendation": 2615,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:18.713Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:18.713Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c6cc363b6735dc6834"
+  },
+  "authorName": "Ashim Sunam",
+  "userId": {
+    "$oid": "656409c6cc363b6735dc67f7"
+  },
+  "recommendation": 1645,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:18.712Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:18.712Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c6cc363b6735dc681d"
+  },
+  "authorName": "Anu James",
+  "userId": {
+    "$oid": "656409c5cc363b6735dc67e2"
+  },
+  "recommendation": 391,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:18.047Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:18.047Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c6cc363b6735dc681f"
+  },
+  "authorName": "Shekhar H Hooli",
+  "userId": {
+    "$oid": "656409c5cc363b6735dc67e2"
+  },
+  "recommendation": 154,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:18.048Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:18.048Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c7cc363b6735dc683f"
+  },
+  "authorName": "Ashim Sunam",
+  "userId": {
+    "$oid": "656409c6cc363b6735dc6824"
+  },
+  "recommendation": 2072,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:19.381Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:19.381Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c7cc363b6735dc6843"
+  },
+  "authorName": "Rohit KVN",
+  "userId": {
+    "$oid": "656409c6cc363b6735dc6824"
+  },
+  "recommendation": 1316,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:19.382Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:19.382Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c7cc363b6735dc6841"
+  },
+  "authorName": "Sayantan Maitra",
+  "userId": {
+    "$oid": "656409c6cc363b6735dc6824"
+  },
+  "recommendation": 1677,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:19.381Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:19.381Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c7cc363b6735dc6845"
+  },
+  "authorName": "Rohit KVN",
+  "userId": {
+    "$oid": "656409c6cc363b6735dc6824"
+  },
+  "recommendation": 1399,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:19.382Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:19.382Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c7cc363b6735dc6847"
+  },
+  "authorName": "Arijita Bhowmik",
+  "userId": {
+    "$oid": "656409c6cc363b6735dc6824"
+  },
+  "recommendation": 2079,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:19.383Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:19.383Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c7cc363b6735dc6849"
+  },
+  "authorName": "Suparno Sarkar",
+  "userId": {
+    "$oid": "656409c6cc363b6735dc6824"
+  },
+  "recommendation": 3988,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:19.384Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:19.384Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c8cc363b6735dc685e"
+  },
+  "authorName": "Ashim Sunam",
+  "userId": {
+    "$oid": "656409c7cc363b6735dc683d"
+  },
+  "recommendation": 1936,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:20.066Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:20.066Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c8cc363b6735dc6856"
+  },
+  "authorName": "Harish Revanna",
+  "userId": {
+    "$oid": "656409c7cc363b6735dc683d"
+  },
+  "recommendation": 2607,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:20.064Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:20.064Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c8cc363b6735dc6858"
+  },
+  "authorName": "Suparno Sarkar",
+  "userId": {
+    "$oid": "656409c7cc363b6735dc683d"
+  },
+  "recommendation": 3538,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:20.064Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:20.064Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c8cc363b6735dc685c"
+  },
+  "authorName": "Arkadev Ghoshal",
+  "userId": {
+    "$oid": "656409c7cc363b6735dc683d"
+  },
+  "recommendation": 2576,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:20.065Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:20.065Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c8cc363b6735dc6854"
+  },
+  "authorName": "Mugdha Variyar",
+  "userId": {
+    "$oid": "656409c7cc363b6735dc683d"
+  },
+  "recommendation": 2445,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:20.063Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:20.063Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c8cc363b6735dc6860"
+  },
+  "authorName": "Rohit KVN",
+  "userId": {
+    "$oid": "656409c7cc363b6735dc683d"
+  },
+  "recommendation": 1298,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:20.066Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:20.066Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c8cc363b6735dc6850"
+  },
+  "authorName": "Reuters",
+  "userId": {
+    "$oid": "656409c7cc363b6735dc683d"
+  },
+  "recommendation": 2511,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:20.061Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:20.061Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c8cc363b6735dc6868"
+  },
+  "authorName": "Ashim Sunam",
+  "userId": {
+    "$oid": "656409c7cc363b6735dc683d"
+  },
+  "recommendation": 1692,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:20.069Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:20.069Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c8cc363b6735dc685a"
+  },
+  "authorName": "Sachin Jose",
+  "userId": {
+    "$oid": "656409c7cc363b6735dc683d"
+  },
+  "recommendation": 2846,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:20.065Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:20.065Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c8cc363b6735dc6852"
+  },
+  "authorName": "Rohit KVN",
+  "userId": {
+    "$oid": "656409c7cc363b6735dc683d"
+  },
+  "recommendation": 1061,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:20.062Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:20.062Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c8cc363b6735dc6866"
+  },
+  "authorName": "Ashim Sunam",
+  "userId": {
+    "$oid": "656409c7cc363b6735dc683d"
+  },
+  "recommendation": 1613,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:20.068Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:20.068Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c8cc363b6735dc6862"
+  },
+  "authorName": "Besta Shankar",
+  "userId": {
+    "$oid": "656409c7cc363b6735dc683d"
+  },
+  "recommendation": 2304,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:20.067Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:20.067Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c8cc363b6735dc686e"
+  },
+  "authorName": "Prakash Upadhyaya",
+  "userId": {
+    "$oid": "656409c7cc363b6735dc683d"
+  },
+  "recommendation": 92,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:20.070Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:20.070Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c8cc363b6735dc6864"
+  },
+  "authorName": "Kalyani Pandey",
+  "userId": {
+    "$oid": "656409c7cc363b6735dc683d"
+  },
+  "recommendation": 2289,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:20.068Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:20.068Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c8cc363b6735dc686c"
+  },
+  "authorName": "Prakash Upadhyaya",
+  "userId": {
+    "$oid": "656409c7cc363b6735dc683d"
+  },
+  "recommendation": 801,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:20.070Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:20.070Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c8cc363b6735dc686a"
+  },
+  "authorName": "Ashim Sunam",
+  "userId": {
+    "$oid": "656409c7cc363b6735dc683d"
+  },
+  "recommendation": 1565,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:20.069Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:20.069Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c8cc363b6735dc6875"
+  },
+  "authorName": "Besta Shankar",
+  "userId": {
+    "$oid": "656409c8cc363b6735dc684e"
+  },
+  "recommendation": 3977,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:20.746Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:20.746Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c8cc363b6735dc6879"
+  },
+  "authorName": "Anu James",
+  "userId": {
+    "$oid": "656409c8cc363b6735dc684e"
+  },
+  "recommendation": 348,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:20.747Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:20.747Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c8cc363b6735dc6877"
+  },
+  "authorName": "Prakash Upadhyaya",
+  "userId": {
+    "$oid": "656409c8cc363b6735dc684e"
+  },
+  "recommendation": 64,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:20.747Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:20.747Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c8cc363b6735dc687b"
+  },
+  "authorName": "Anu James",
+  "userId": {
+    "$oid": "656409c8cc363b6735dc684e"
+  },
+  "recommendation": 1928,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:20.748Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:20.748Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c8cc363b6735dc687d"
+  },
+  "authorName": "Kalyani Pandey",
+  "userId": {
+    "$oid": "656409c8cc363b6735dc684e"
+  },
+  "recommendation": 3340,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:20.748Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:20.748Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c8cc363b6735dc6883"
+  },
+  "authorName": "Ankita Mehta",
+  "userId": {
+    "$oid": "656409c8cc363b6735dc684e"
+  },
+  "recommendation": 3033,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:20.750Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:20.750Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c8cc363b6735dc6881"
+  },
+  "authorName": "Ashim Sunam",
+  "userId": {
+    "$oid": "656409c8cc363b6735dc684e"
+  },
+  "recommendation": 1603,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:20.750Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:20.750Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c8cc363b6735dc687f"
+  },
+  "authorName": "Raymond Ronamai",
+  "userId": {
+    "$oid": "656409c8cc363b6735dc684e"
+  },
+  "recommendation": 993,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:20.749Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:20.749Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c9cc363b6735dc688a"
+  },
+  "authorName": "S V Krishnamachari",
+  "userId": {
+    "$oid": "656409c8cc363b6735dc6873"
+  },
+  "recommendation": 3973,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:21.421Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:21.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c9cc363b6735dc688c"
+  },
+  "authorName": "Parismita Goswami",
+  "userId": {
+    "$oid": "656409c8cc363b6735dc6873"
+  },
+  "recommendation": 3177,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:21.422Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:21.422Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c9cc363b6735dc6892"
+  },
+  "authorName": "Sayantan Maitra",
+  "userId": {
+    "$oid": "656409c8cc363b6735dc6873"
+  },
+  "recommendation": 1617,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:21.423Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:21.423Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c9cc363b6735dc688e"
+  },
+  "authorName": "Anirban Roy",
+  "userId": {
+    "$oid": "656409c8cc363b6735dc6873"
+  },
+  "recommendation": 1148,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:21.422Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:21.422Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c9cc363b6735dc6894"
+  },
+  "authorName": "Prakash Upadhyaya",
+  "userId": {
+    "$oid": "656409c8cc363b6735dc6873"
+  },
+  "recommendation": 865,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:21.424Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:21.424Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c9cc363b6735dc6890"
+  },
+  "authorName": "Sachin Jose",
+  "userId": {
+    "$oid": "656409c8cc363b6735dc6873"
+  },
+  "recommendation": 3317,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:21.423Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:21.423Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c9cc363b6735dc68a2"
+  },
+  "authorName": "Johnlee Varghese",
+  "userId": {
+    "$oid": "656409c8cc363b6735dc6873"
+  },
+  "recommendation": 2666,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:21.428Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:21.428Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c9cc363b6735dc6896"
+  },
+  "authorName": "Rajarshi Majumdar",
+  "userId": {
+    "$oid": "656409c8cc363b6735dc6873"
+  },
+  "recommendation": 1505,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:21.424Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:21.424Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c9cc363b6735dc6898"
+  },
+  "authorName": "Gopi Chandra Kharel",
+  "userId": {
+    "$oid": "656409c8cc363b6735dc6873"
+  },
+  "recommendation": 2667,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:21.425Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:21.425Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c9cc363b6735dc68a0"
+  },
+  "authorName": "Arkadev Ghoshal",
+  "userId": {
+    "$oid": "656409c8cc363b6735dc6873"
+  },
+  "recommendation": 2677,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:21.427Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:21.427Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c9cc363b6735dc689c"
+  },
+  "authorName": "Shekhar H Hooli",
+  "userId": {
+    "$oid": "656409c8cc363b6735dc6873"
+  },
+  "recommendation": 246,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:21.426Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:21.426Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c9cc363b6735dc689a"
+  },
+  "authorName": "Anu James",
+  "userId": {
+    "$oid": "656409c8cc363b6735dc6873"
+  },
+  "recommendation": 1974,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:21.426Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:21.426Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c9cc363b6735dc68a4"
+  },
+  "authorName": "Neha Singh",
+  "userId": {
+    "$oid": "656409c8cc363b6735dc6873"
+  },
+  "recommendation": 3287,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:21.428Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:21.428Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c9cc363b6735dc689e"
+  },
+  "authorName": "Anu James",
+  "userId": {
+    "$oid": "656409c8cc363b6735dc6873"
+  },
+  "recommendation": 137,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:21.427Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:21.427Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c9cc363b6735dc68a6"
+  },
+  "authorName": "S V Krishnamachari",
+  "userId": {
+    "$oid": "656409c8cc363b6735dc6873"
+  },
+  "recommendation": 3888,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:21.429Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:21.429Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c9cc363b6735dc68a8"
+  },
+  "authorName": "Neha Singh",
+  "userId": {
+    "$oid": "656409c8cc363b6735dc6873"
+  },
+  "recommendation": 2895,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:21.429Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:21.429Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409c9cc363b6735dc68aa"
+  },
+  "authorName": "Shekhar H Hooli",
+  "userId": {
+    "$oid": "656409c8cc363b6735dc6873"
+  },
+  "recommendation": 753,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:21.430Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:21.430Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cacc363b6735dc68b3"
+  },
+  "authorName": "Prarthna Sarkar",
+  "userId": {
+    "$oid": "656409c9cc363b6735dc6888"
+  },
+  "recommendation": 823,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:22.095Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:22.095Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cacc363b6735dc68b1"
+  },
+  "authorName": "Sushmita Sen",
+  "userId": {
+    "$oid": "656409c9cc363b6735dc6888"
+  },
+  "recommendation": 3553,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:22.095Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:22.095Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cacc363b6735dc68b5"
+  },
+  "authorName": "Mugdha Variyar",
+  "userId": {
+    "$oid": "656409c9cc363b6735dc6888"
+  },
+  "recommendation": 3817,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:22.096Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:22.096Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cacc363b6735dc68b7"
+  },
+  "authorName": "Reuters",
+  "userId": {
+    "$oid": "656409c9cc363b6735dc6888"
+  },
+  "recommendation": 3361,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:22.096Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:22.096Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cacc363b6735dc68b9"
+  },
+  "authorName": "Besta Shankar",
+  "userId": {
+    "$oid": "656409c9cc363b6735dc6888"
+  },
+  "recommendation": 2308,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:22.097Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:22.097Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cacc363b6735dc68bb"
+  },
+  "authorName": "Sayantan Maitra",
+  "userId": {
+    "$oid": "656409c9cc363b6735dc6888"
+  },
+  "recommendation": 1494,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:22.097Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:22.097Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cacc363b6735dc68bd"
+  },
+  "authorName": "Rohit KVN",
+  "userId": {
+    "$oid": "656409c9cc363b6735dc6888"
+  },
+  "recommendation": 1042,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:22.098Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:22.098Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cacc363b6735dc68bf"
+  },
+  "authorName": "Suparno Sarkar",
+  "userId": {
+    "$oid": "656409c9cc363b6735dc6888"
+  },
+  "recommendation": 3672,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:22.098Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:22.098Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cacc363b6735dc68c1"
+  },
+  "authorName": "Shekhar H Hooli",
+  "userId": {
+    "$oid": "656409c9cc363b6735dc6888"
+  },
+  "recommendation": 721,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:22.099Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:22.099Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cacc363b6735dc68c8"
+  },
+  "authorName": "Raymond Ronamai",
+  "userId": {
+    "$oid": "656409cacc363b6735dc68af"
+  },
+  "recommendation": 1407,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:22.775Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:22.775Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cacc363b6735dc68ca"
+  },
+  "authorName": "Suparno Sarkar",
+  "userId": {
+    "$oid": "656409cacc363b6735dc68af"
+  },
+  "recommendation": 3220,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:22.776Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:22.776Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cbcc363b6735dc68d1"
+  },
+  "authorName": "Prakash Upadhyaya",
+  "userId": {
+    "$oid": "656409cacc363b6735dc68c6"
+  },
+  "recommendation": 35,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:23.501Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:23.501Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cbcc363b6735dc68d5"
+  },
+  "authorName": "Prarthna Sarkar",
+  "userId": {
+    "$oid": "656409cacc363b6735dc68c6"
+  },
+  "recommendation": 3598,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:23.505Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:23.505Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cbcc363b6735dc68d3"
+  },
+  "authorName": "Sachin Jose",
+  "userId": {
+    "$oid": "656409cacc363b6735dc68c6"
+  },
+  "recommendation": 855,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:23.504Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:23.504Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cbcc363b6735dc68d7"
+  },
+  "authorName": "IANS",
+  "userId": {
+    "$oid": "656409cacc363b6735dc68c6"
+  },
+  "recommendation": 2654,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:23.506Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:23.506Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cbcc363b6735dc68ed"
+  },
+  "authorName": "Besta Shankar",
+  "userId": {
+    "$oid": "656409cacc363b6735dc68c6"
+  },
+  "recommendation": 3950,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:23.513Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:23.513Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cbcc363b6735dc68db"
+  },
+  "authorName": "Neha Singh",
+  "userId": {
+    "$oid": "656409cacc363b6735dc68c6"
+  },
+  "recommendation": 3248,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:23.507Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:23.507Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cbcc363b6735dc68e1"
+  },
+  "authorName": "Sayantan Maitra",
+  "userId": {
+    "$oid": "656409cacc363b6735dc68c6"
+  },
+  "recommendation": 1648,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:23.509Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:23.509Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cbcc363b6735dc68e3"
+  },
+  "authorName": "Anu James",
+  "userId": {
+    "$oid": "656409cacc363b6735dc68c6"
+  },
+  "recommendation": 240,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:23.510Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:23.510Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cbcc363b6735dc68d9"
+  },
+  "authorName": "Shekhar H Hooli",
+  "userId": {
+    "$oid": "656409cacc363b6735dc68c6"
+  },
+  "recommendation": 44,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:23.506Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:23.506Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cbcc363b6735dc68f5"
+  },
+  "authorName": "Bismah Malik",
+  "userId": {
+    "$oid": "656409cacc363b6735dc68c6"
+  },
+  "recommendation": 2965,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:23.516Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:23.516Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cbcc363b6735dc68f1"
+  },
+  "authorName": "Shubhang Saurav",
+  "userId": {
+    "$oid": "656409cacc363b6735dc68c6"
+  },
+  "recommendation": 2411,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:23.514Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:23.514Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cbcc363b6735dc68df"
+  },
+  "authorName": "Shekhar H Hooli",
+  "userId": {
+    "$oid": "656409cacc363b6735dc68c6"
+  },
+  "recommendation": 444,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:23.509Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:23.509Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cbcc363b6735dc68e7"
+  },
+  "authorName": "Rohit KVN",
+  "userId": {
+    "$oid": "656409cacc363b6735dc68c6"
+  },
+  "recommendation": 1162,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:23.511Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:23.511Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cbcc363b6735dc68dd"
+  },
+  "authorName": "IBTimes Staff Reporter",
+  "userId": {
+    "$oid": "656409cacc363b6735dc68c6"
+  },
+  "recommendation": 3130,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:23.508Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:23.508Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cbcc363b6735dc68e9"
+  },
+  "authorName": "Anu James",
+  "userId": {
+    "$oid": "656409cacc363b6735dc68c6"
+  },
+  "recommendation": 241,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:23.512Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:23.512Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cbcc363b6735dc68f3"
+  },
+  "authorName": "Sushmita Sen",
+  "userId": {
+    "$oid": "656409cacc363b6735dc68c6"
+  },
+  "recommendation": 3531,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:23.515Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:23.515Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cbcc363b6735dc68ef"
+  },
+  "authorName": "Prakash Upadhyaya",
+  "userId": {
+    "$oid": "656409cacc363b6735dc68c6"
+  },
+  "recommendation": 285,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:23.514Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:23.514Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cbcc363b6735dc68e5"
+  },
+  "authorName": "Shekhar H Hooli",
+  "userId": {
+    "$oid": "656409cacc363b6735dc68c6"
+  },
+  "recommendation": 173,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:23.510Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:23.510Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cbcc363b6735dc68eb"
+  },
+  "authorName": "Ankita Mehta",
+  "userId": {
+    "$oid": "656409cacc363b6735dc68c6"
+  },
+  "recommendation": 3134,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:23.512Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:23.512Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cccc363b6735dc68fc"
+  },
+  "authorName": "Besta Shankar",
+  "userId": {
+    "$oid": "656409cbcc363b6735dc68cf"
+  },
+  "recommendation": 2224,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:24.174Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:24.174Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cccc363b6735dc68fe"
+  },
+  "authorName": "Prarthna Sarkar",
+  "userId": {
+    "$oid": "656409cbcc363b6735dc68cf"
+  },
+  "recommendation": 2880,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:24.176Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:24.176Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cccc363b6735dc6902"
+  },
+  "authorName": "S V Krishnamachari",
+  "userId": {
+    "$oid": "656409cbcc363b6735dc68cf"
+  },
+  "recommendation": 2288,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:24.177Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:24.177Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cccc363b6735dc6908"
+  },
+  "authorName": "Anu James",
+  "userId": {
+    "$oid": "656409cbcc363b6735dc68cf"
+  },
+  "recommendation": 862,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:24.179Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:24.179Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cccc363b6735dc6900"
+  },
+  "authorName": "Mugdha Variyar",
+  "userId": {
+    "$oid": "656409cbcc363b6735dc68cf"
+  },
+  "recommendation": 2746,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:24.177Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:24.177Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cccc363b6735dc6904"
+  },
+  "authorName": "Rohit KVN",
+  "userId": {
+    "$oid": "656409cbcc363b6735dc68cf"
+  },
+  "recommendation": 1085,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:24.178Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:24.178Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cccc363b6735dc6906"
+  },
+  "authorName": "Asmita Sarkar",
+  "userId": {
+    "$oid": "656409cbcc363b6735dc68cf"
+  },
+  "recommendation": 3784,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:24.178Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:24.178Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cccc363b6735dc6912"
+  },
+  "authorName": "Nicy V.P",
+  "userId": {
+    "$oid": "656409cbcc363b6735dc68cf"
+  },
+  "recommendation": 227,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:24.181Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:24.181Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cccc363b6735dc690a"
+  },
+  "authorName": "Sayantan Maitra",
+  "userId": {
+    "$oid": "656409cbcc363b6735dc68cf"
+  },
+  "recommendation": 1579,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:24.179Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:24.179Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cccc363b6735dc6910"
+  },
+  "authorName": "Mugdha Variyar",
+  "userId": {
+    "$oid": "656409cbcc363b6735dc68cf"
+  },
+  "recommendation": 2376,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:24.181Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:24.181Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cccc363b6735dc690e"
+  },
+  "authorName": "Prarthna Sarkar",
+  "userId": {
+    "$oid": "656409cbcc363b6735dc68cf"
+  },
+  "recommendation": 3473,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:24.180Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:24.180Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cccc363b6735dc6916"
+  },
+  "authorName": "Mayukh Mukherjee",
+  "userId": {
+    "$oid": "656409cbcc363b6735dc68cf"
+  },
+  "recommendation": 2262,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:24.182Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:24.182Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cccc363b6735dc690c"
+  },
+  "authorName": "Mugdha Variyar",
+  "userId": {
+    "$oid": "656409cbcc363b6735dc68cf"
+  },
+  "recommendation": 3295,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:24.180Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:24.180Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cccc363b6735dc6914"
+  },
+  "authorName": "Rohit KVN",
+  "userId": {
+    "$oid": "656409cbcc363b6735dc68cf"
+  },
+  "recommendation": 933,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:24.182Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:24.182Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cccc363b6735dc691d"
+  },
+  "authorName": "Aditya Bhat",
+  "userId": {
+    "$oid": "656409cccc363b6735dc68fa"
+  },
+  "recommendation": 3389,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:24.855Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:24.855Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cccc363b6735dc691f"
+  },
+  "authorName": "Johnlee Varghese",
+  "userId": {
+    "$oid": "656409cccc363b6735dc68fa"
+  },
+  "recommendation": 3106,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:24.856Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:24.856Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cccc363b6735dc6921"
+  },
+  "authorName": "Sushmita Sen",
+  "userId": {
+    "$oid": "656409cccc363b6735dc68fa"
+  },
+  "recommendation": 3476,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:24.856Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:24.856Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cccc363b6735dc6925"
+  },
+  "authorName": "Neha Singh",
+  "userId": {
+    "$oid": "656409cccc363b6735dc68fa"
+  },
+  "recommendation": 3652,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:24.857Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:24.857Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cccc363b6735dc6927"
+  },
+  "authorName": "Suparno Sarkar",
+  "userId": {
+    "$oid": "656409cccc363b6735dc68fa"
+  },
+  "recommendation": 1,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:24.858Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:24.858Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cccc363b6735dc6923"
+  },
+  "authorName": "Gopi Chandra Kharel",
+  "userId": {
+    "$oid": "656409cccc363b6735dc68fa"
+  },
+  "recommendation": 3370,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:24.857Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:24.857Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cccc363b6735dc6929"
+  },
+  "authorName": "Ashim Sunam",
+  "userId": {
+    "$oid": "656409cccc363b6735dc68fa"
+  },
+  "recommendation": 1781,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:24.858Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:24.858Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cccc363b6735dc6935"
+  },
+  "authorName": "Rohit KVN",
+  "userId": {
+    "$oid": "656409cccc363b6735dc68fa"
+  },
+  "recommendation": 936,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:24.861Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:24.861Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cccc363b6735dc692f"
+  },
+  "authorName": "Nicy V.P",
+  "userId": {
+    "$oid": "656409cccc363b6735dc68fa"
+  },
+  "recommendation": 2059,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:24.860Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:24.860Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cccc363b6735dc692b"
+  },
+  "authorName": "Sachin Jose",
+  "userId": {
+    "$oid": "656409cccc363b6735dc68fa"
+  },
+  "recommendation": 2745,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:24.859Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:24.859Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cccc363b6735dc692d"
+  },
+  "authorName": "Parismita Goswami",
+  "userId": {
+    "$oid": "656409cccc363b6735dc68fa"
+  },
+  "recommendation": 2071,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:24.859Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:24.859Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cccc363b6735dc6933"
+  },
+  "authorName": "Mugdha Variyar",
+  "userId": {
+    "$oid": "656409cccc363b6735dc68fa"
+  },
+  "recommendation": 2426,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:24.861Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:24.861Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cccc363b6735dc6931"
+  },
+  "authorName": "IANS",
+  "userId": {
+    "$oid": "656409cccc363b6735dc68fa"
+  },
+  "recommendation": 3298,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:24.860Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:24.860Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cccc363b6735dc6937"
+  },
+  "authorName": "Besta Shankar",
+  "userId": {
+    "$oid": "656409cccc363b6735dc68fa"
+  },
+  "recommendation": 2229,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:24.862Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:24.862Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cccc363b6735dc6939"
+  },
+  "authorName": "Reuters",
+  "userId": {
+    "$oid": "656409cccc363b6735dc68fa"
+  },
+  "recommendation": 2548,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:24.862Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:24.862Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cdcc363b6735dc6940"
+  },
+  "authorName": "Suparno Sarkar",
+  "userId": {
+    "$oid": "656409cccc363b6735dc691b"
+  },
+  "recommendation": 2994,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:25.525Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:25.525Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cdcc363b6735dc6942"
+  },
+  "authorName": "Rohit KVN",
+  "userId": {
+    "$oid": "656409cccc363b6735dc691b"
+  },
+  "recommendation": 1367,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:25.525Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:25.525Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cecc363b6735dc694b"
+  },
+  "authorName": "Rohit KVN",
+  "userId": {
+    "$oid": "656409cdcc363b6735dc693e"
+  },
+  "recommendation": 1379,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:26.206Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:26.206Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cecc363b6735dc694f"
+  },
+  "authorName": "Arkadev Ghoshal",
+  "userId": {
+    "$oid": "656409cdcc363b6735dc693e"
+  },
+  "recommendation": 2318,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:26.207Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:26.207Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cecc363b6735dc6949"
+  },
+  "authorName": "Suparno Sarkar",
+  "userId": {
+    "$oid": "656409cdcc363b6735dc693e"
+  },
+  "recommendation": 2976,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:26.205Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:26.205Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cecc363b6735dc694d"
+  },
+  "authorName": "Besta Shankar",
+  "userId": {
+    "$oid": "656409cdcc363b6735dc693e"
+  },
+  "recommendation": 2234,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:26.207Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:26.207Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cecc363b6735dc6953"
+  },
+  "authorName": "Anirban Roy",
+  "userId": {
+    "$oid": "656409cdcc363b6735dc693e"
+  },
+  "recommendation": 1466,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:26.209Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:26.209Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cecc363b6735dc6951"
+  },
+  "authorName": "Sushmita Sen",
+  "userId": {
+    "$oid": "656409cdcc363b6735dc693e"
+  },
+  "recommendation": 2971,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:26.208Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:26.208Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cecc363b6735dc695d"
+  },
+  "authorName": "Mugdha Variyar",
+  "userId": {
+    "$oid": "656409cdcc363b6735dc693e"
+  },
+  "recommendation": 3869,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:26.211Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:26.211Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cecc363b6735dc6955"
+  },
+  "authorName": "IANS",
+  "userId": {
+    "$oid": "656409cdcc363b6735dc693e"
+  },
+  "recommendation": 2913,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:26.209Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:26.209Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cecc363b6735dc6957"
+  },
+  "authorName": "Neha Singh",
+  "userId": {
+    "$oid": "656409cdcc363b6735dc693e"
+  },
+  "recommendation": 1883,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:26.210Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:26.210Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cecc363b6735dc695f"
+  },
+  "authorName": "Shekhar H Hooli",
+  "userId": {
+    "$oid": "656409cdcc363b6735dc693e"
+  },
+  "recommendation": 476,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:26.212Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:26.212Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cecc363b6735dc6959"
+  },
+  "authorName": "Manoj Kumar",
+  "userId": {
+    "$oid": "656409cdcc363b6735dc693e"
+  },
+  "recommendation": 2964,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:26.210Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:26.210Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cecc363b6735dc6961"
+  },
+  "authorName": "Suparno Sarkar",
+  "userId": {
+    "$oid": "656409cdcc363b6735dc693e"
+  },
+  "recommendation": 2889,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:26.212Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:26.212Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cecc363b6735dc695b"
+  },
+  "authorName": "Shekhar H Hooli",
+  "userId": {
+    "$oid": "656409cdcc363b6735dc693e"
+  },
+  "recommendation": 2163,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:26.211Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:26.211Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cecc363b6735dc6965"
+  },
+  "authorName": "Mugdha Variyar",
+  "userId": {
+    "$oid": "656409cdcc363b6735dc693e"
+  },
+  "recommendation": 2620,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:26.213Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:26.213Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cecc363b6735dc6963"
+  },
+  "authorName": "Neha Singh",
+  "userId": {
+    "$oid": "656409cdcc363b6735dc693e"
+  },
+  "recommendation": 3306,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:26.213Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:26.213Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cecc363b6735dc6967"
+  },
+  "authorName": "Prarthna Sarkar",
+  "userId": {
+    "$oid": "656409cdcc363b6735dc693e"
+  },
+  "recommendation": 1785,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:26.214Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:26.214Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cecc363b6735dc6969"
+  },
+  "authorName": "Shilpa Bansal",
+  "userId": {
+    "$oid": "656409cdcc363b6735dc693e"
+  },
+  "recommendation": 2641,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:26.215Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:26.215Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cecc363b6735dc6970"
+  },
+  "authorName": "Reuters",
+  "userId": {
+    "$oid": "656409cecc363b6735dc6947"
+  },
+  "recommendation": 2648,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:26.901Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:26.901Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cecc363b6735dc6972"
+  },
+  "authorName": "Shekhar H Hooli",
+  "userId": {
+    "$oid": "656409cecc363b6735dc6947"
+  },
+  "recommendation": 455,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:26.903Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:26.903Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cecc363b6735dc6978"
+  },
+  "authorName": "Rohit KVN",
+  "userId": {
+    "$oid": "656409cecc363b6735dc6947"
+  },
+  "recommendation": 926,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:26.906Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:26.906Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cecc363b6735dc6974"
+  },
+  "authorName": "Shekhar H Hooli",
+  "userId": {
+    "$oid": "656409cecc363b6735dc6947"
+  },
+  "recommendation": 368,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:26.905Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:26.905Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cecc363b6735dc6976"
+  },
+  "authorName": "Anu James",
+  "userId": {
+    "$oid": "656409cecc363b6735dc6947"
+  },
+  "recommendation": 758,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:26.906Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:26.906Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cecc363b6735dc697c"
+  },
+  "authorName": "Anirban Roy",
+  "userId": {
+    "$oid": "656409cecc363b6735dc6947"
+  },
+  "recommendation": 1151,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:26.907Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:26.907Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cecc363b6735dc697a"
+  },
+  "authorName": "IANS",
+  "userId": {
+    "$oid": "656409cecc363b6735dc6947"
+  },
+  "recommendation": 2737,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:26.907Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:26.907Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cecc363b6735dc697e"
+  },
+  "authorName": "Johnlee Varghese",
+  "userId": {
+    "$oid": "656409cecc363b6735dc6947"
+  },
+  "recommendation": 3659,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:26.908Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:26.908Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cecc363b6735dc6984"
+  },
+  "authorName": "Mugdha Variyar",
+  "userId": {
+    "$oid": "656409cecc363b6735dc6947"
+  },
+  "recommendation": 2368,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:26.909Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:26.909Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cecc363b6735dc6982"
+  },
+  "authorName": "Sushmita Sen",
+  "userId": {
+    "$oid": "656409cecc363b6735dc6947"
+  },
+  "recommendation": 485,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:26.909Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:26.909Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cecc363b6735dc6986"
+  },
+  "authorName": "Neha Singh",
+  "userId": {
+    "$oid": "656409cecc363b6735dc6947"
+  },
+  "recommendation": 3285,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:26.910Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:26.910Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cecc363b6735dc698c"
+  },
+  "authorName": "Suparno Sarkar",
+  "userId": {
+    "$oid": "656409cecc363b6735dc6947"
+  },
+  "recommendation": 3480,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:26.912Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:26.912Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cecc363b6735dc6980"
+  },
+  "authorName": "Shekhar H Hooli",
+  "userId": {
+    "$oid": "656409cecc363b6735dc6947"
+  },
+  "recommendation": 439,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:26.908Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:26.908Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cecc363b6735dc698a"
+  },
+  "authorName": "Sushmita Sen",
+  "userId": {
+    "$oid": "656409cecc363b6735dc6947"
+  },
+  "recommendation": 3569,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:26.911Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:26.911Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cecc363b6735dc698e"
+  },
+  "authorName": "Reuters",
+  "userId": {
+    "$oid": "656409cecc363b6735dc6947"
+  },
+  "recommendation": 1971,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:26.913Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:26.913Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cecc363b6735dc6988"
+  },
+  "authorName": "Prakash Upadhyaya",
+  "userId": {
+    "$oid": "656409cecc363b6735dc6947"
+  },
+  "recommendation": 549,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:26.911Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:26.911Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cfcc363b6735dc6997"
+  },
+  "authorName": "Parismita Goswami",
+  "userId": {
+    "$oid": "656409cecc363b6735dc696e"
+  },
+  "recommendation": 2031,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:27.576Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:27.576Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cfcc363b6735dc6995"
+  },
+  "authorName": "Anirban Roy",
+  "userId": {
+    "$oid": "656409cecc363b6735dc696e"
+  },
+  "recommendation": 1450,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:27.575Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:27.575Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cfcc363b6735dc699f"
+  },
+  "authorName": "Besta Shankar",
+  "userId": {
+    "$oid": "656409cecc363b6735dc696e"
+  },
+  "recommendation": 2255,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:27.578Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:27.578Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cfcc363b6735dc6999"
+  },
+  "authorName": "Ashim Sunam",
+  "userId": {
+    "$oid": "656409cecc363b6735dc696e"
+  },
+  "recommendation": 1787,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:27.576Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:27.576Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cfcc363b6735dc699d"
+  },
+  "authorName": "Prakash Upadhyaya",
+  "userId": {
+    "$oid": "656409cecc363b6735dc696e"
+  },
+  "recommendation": 41,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:27.577Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:27.577Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cfcc363b6735dc699b"
+  },
+  "authorName": "Sushmita Sen",
+  "userId": {
+    "$oid": "656409cecc363b6735dc696e"
+  },
+  "recommendation": 2051,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:27.577Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:27.577Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cfcc363b6735dc69a3"
+  },
+  "authorName": "Bismah Malik",
+  "userId": {
+    "$oid": "656409cecc363b6735dc696e"
+  },
+  "recommendation": 2806,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:27.579Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:27.579Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cfcc363b6735dc69a5"
+  },
+  "authorName": "Gopi Chandra Kharel",
+  "userId": {
+    "$oid": "656409cecc363b6735dc696e"
+  },
+  "recommendation": 3368,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:27.579Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:27.579Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409cfcc363b6735dc69a1"
+  },
+  "authorName": "Rohit KVN",
+  "userId": {
+    "$oid": "656409cecc363b6735dc696e"
+  },
+  "recommendation": 1085,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:27.578Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:27.578Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409d0cc363b6735dc69ac"
+  },
+  "authorName": "Neha Singh",
+  "userId": {
+    "$oid": "656409cfcc363b6735dc6993"
+  },
+  "recommendation": 2706,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:28.268Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:28.268Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409d0cc363b6735dc69b2"
+  },
+  "authorName": "Prakash Upadhyaya",
+  "userId": {
+    "$oid": "656409cfcc363b6735dc6993"
+  },
+  "recommendation": 813,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:28.270Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:28.270Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409d0cc363b6735dc69b0"
+  },
+  "authorName": "Anu James",
+  "userId": {
+    "$oid": "656409cfcc363b6735dc6993"
+  },
+  "recommendation": 151,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:28.269Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:28.269Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409d0cc363b6735dc69ae"
+  },
+  "authorName": "Johnlee Varghese",
+  "userId": {
+    "$oid": "656409cfcc363b6735dc6993"
+  },
+  "recommendation": 3251,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:28.269Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:28.269Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409d0cc363b6735dc69b4"
+  },
+  "authorName": "Ankita Mehta",
+  "userId": {
+    "$oid": "656409cfcc363b6735dc6993"
+  },
+  "recommendation": 2062,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:28.270Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:28.270Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409d0cc363b6735dc69be"
+  },
+  "authorName": "Rohit KVN",
+  "userId": {
+    "$oid": "656409cfcc363b6735dc6993"
+  },
+  "recommendation": 1287,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:28.273Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:28.273Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409d0cc363b6735dc69ba"
+  },
+  "authorName": "Rohit KVN",
+  "userId": {
+    "$oid": "656409cfcc363b6735dc6993"
+  },
+  "recommendation": 886,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:28.272Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:28.272Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409d0cc363b6735dc69b6"
+  },
+  "authorName": "Lint Merry Sam",
+  "userId": {
+    "$oid": "656409cfcc363b6735dc6993"
+  },
+  "recommendation": 1864,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:28.271Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:28.271Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409d0cc363b6735dc69b8"
+  },
+  "authorName": "Johnlee Varghese",
+  "userId": {
+    "$oid": "656409cfcc363b6735dc6993"
+  },
+  "recommendation": 2486,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:28.272Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:28.272Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409d0cc363b6735dc69c0"
+  },
+  "authorName": "Johnlee Varghese",
+  "userId": {
+    "$oid": "656409cfcc363b6735dc6993"
+  },
+  "recommendation": 3787,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:28.273Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:28.273Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409d0cc363b6735dc69c2"
+  },
+  "authorName": "Prarthna Sarkar",
+  "userId": {
+    "$oid": "656409cfcc363b6735dc6993"
+  },
+  "recommendation": 3154,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:28.274Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:28.274Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409d0cc363b6735dc69bc"
+  },
+  "authorName": "Neha Singh",
+  "userId": {
+    "$oid": "656409cfcc363b6735dc6993"
+  },
+  "recommendation": 3248,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:28.272Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:28.272Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409d0cc363b6735dc69c4"
+  },
+  "authorName": "Mugdha Variyar",
+  "userId": {
+    "$oid": "656409cfcc363b6735dc6993"
+  },
+  "recommendation": 2669,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:28.274Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:28.274Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409d0cc363b6735dc69c6"
+  },
+  "authorName": "Sachin Jose",
+  "userId": {
+    "$oid": "656409cfcc363b6735dc6993"
+  },
+  "recommendation": 3647,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:28.275Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:28.275Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409d0cc363b6735dc69cf"
+  },
+  "authorName": "Ashim Sunam",
+  "userId": {
+    "$oid": "656409d0cc363b6735dc69aa"
+  },
+  "recommendation": 1568,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:28.945Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:28.945Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409d0cc363b6735dc69d3"
+  },
+  "authorName": "Prakash Upadhyaya",
+  "userId": {
+    "$oid": "656409d0cc363b6735dc69aa"
+  },
+  "recommendation": 35,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:28.946Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:28.946Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409d0cc363b6735dc69cd"
+  },
+  "authorName": "Devyani Sultania",
+  "userId": {
+    "$oid": "656409d0cc363b6735dc69aa"
+  },
+  "recommendation": 2349,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:28.944Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:28.944Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409d0cc363b6735dc69d1"
+  },
+  "authorName": "Shekhar H Hooli",
+  "userId": {
+    "$oid": "656409d0cc363b6735dc69aa"
+  },
+  "recommendation": 435,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:28.946Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:28.946Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409d0cc363b6735dc69d7"
+  },
+  "authorName": "Prakash Upadhyaya",
+  "userId": {
+    "$oid": "656409d0cc363b6735dc69aa"
+  },
+  "recommendation": 334,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:28.948Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:28.948Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409d0cc363b6735dc69d5"
+  },
+  "authorName": "Sushmita Sen",
+  "userId": {
+    "$oid": "656409d0cc363b6735dc69aa"
+  },
+  "recommendation": 2991,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:28.947Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:28.947Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409d0cc363b6735dc69e3"
+  },
+  "authorName": "Anu James",
+  "userId": {
+    "$oid": "656409d0cc363b6735dc69aa"
+  },
+  "recommendation": 1974,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:28.951Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:28.951Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409d0cc363b6735dc69e1"
+  },
+  "authorName": "Parismita Goswami",
+  "userId": {
+    "$oid": "656409d0cc363b6735dc69aa"
+  },
+  "recommendation": 2031,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:28.950Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:28.950Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409d0cc363b6735dc69d9"
+  },
+  "authorName": "S V Krishnamachari",
+  "userId": {
+    "$oid": "656409d0cc363b6735dc69aa"
+  },
+  "recommendation": 3998,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:28.948Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:28.948Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409d0cc363b6735dc69db"
+  },
+  "authorName": "Neha Singh",
+  "userId": {
+    "$oid": "656409d0cc363b6735dc69aa"
+  },
+  "recommendation": 2924,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:28.949Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:28.949Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409d0cc363b6735dc69dd"
+  },
+  "authorName": "Ashim Sunam",
+  "userId": {
+    "$oid": "656409d0cc363b6735dc69aa"
+  },
+  "recommendation": 1787,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:28.949Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:28.949Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409d0cc363b6735dc69df"
+  },
+  "authorName": "Prabha K S",
+  "userId": {
+    "$oid": "656409d0cc363b6735dc69aa"
+  },
+  "recommendation": 3891,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:28.950Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:28.950Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409d0cc363b6735dc69e5"
+  },
+  "authorName": "Ashim Sunam",
+  "userId": {
+    "$oid": "656409d0cc363b6735dc69aa"
+  },
+  "recommendation": 1565,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:28.951Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:28.951Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409d0cc363b6735dc69e7"
+  },
+  "authorName": "Neha Singh",
+  "userId": {
+    "$oid": "656409d0cc363b6735dc69aa"
+  },
+  "recommendation": 3890,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:28.952Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:28.952Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409d0cc363b6735dc69e9"
+  },
+  "authorName": "Mugdha Variyar",
+  "userId": {
+    "$oid": "656409d0cc363b6735dc69aa"
+  },
+  "recommendation": 835,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:28.952Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:28.952Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409d0cc363b6735dc69eb"
+  },
+  "authorName": "Prarthna Sarkar",
+  "userId": {
+    "$oid": "656409d0cc363b6735dc69aa"
+  },
+  "recommendation": 1722,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:28.953Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:28.953Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409d1cc363b6735dc69f2"
+  },
+  "authorName": "Prakash Upadhyaya",
+  "userId": {
+    "$oid": "656409d0cc363b6735dc69cb"
+  },
+  "recommendation": 542,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:29.616Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:29.616Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409d1cc363b6735dc69f4"
+  },
+  "authorName": "Mugdha Variyar",
+  "userId": {
+    "$oid": "656409d0cc363b6735dc69cb"
+  },
+  "recommendation": 3670,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:29.616Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:29.616Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409d1cc363b6735dc69f6"
+  },
+  "authorName": "Johnlee Varghese",
+  "userId": {
+    "$oid": "656409d0cc363b6735dc69cb"
+  },
+  "recommendation": 3751,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:29.617Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:29.617Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409d1cc363b6735dc69f8"
+  },
+  "authorName": "Johnlee Varghese",
+  "userId": {
+    "$oid": "656409d0cc363b6735dc69cb"
+  },
+  "recommendation": 2532,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:29.618Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:29.618Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409d2cc363b6735dc69ff"
+  },
+  "authorName": "Prakash Upadhyaya",
+  "userId": {
+    "$oid": "656409d1cc363b6735dc69f0"
+  },
+  "recommendation": 610,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:30.288Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:30.288Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409d2cc363b6735dc6a01"
+  },
+  "authorName": "Sachin Jose",
+  "userId": {
+    "$oid": "656409d1cc363b6735dc69f0"
+  },
+  "recommendation": 217,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:30.289Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:30.289Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409d2cc363b6735dc6a03"
+  },
+  "authorName": "Mugdha Variyar",
+  "userId": {
+    "$oid": "656409d1cc363b6735dc69f0"
+  },
+  "recommendation": 3811,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:30.289Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:30.289Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409d2cc363b6735dc6a05"
+  },
+  "authorName": "Vasudevan Sridharan IBTimes UK , Jayalakshmi K IBTimes UK",
+  "userId": {
+    "$oid": "656409d1cc363b6735dc69f0"
+  },
+  "recommendation": 1850,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:30.290Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:30.290Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409d2cc363b6735dc6a07"
+  },
+  "authorName": "Ashim Sunam",
+  "userId": {
+    "$oid": "656409d1cc363b6735dc69f0"
+  },
+  "recommendation": 1736,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:30.290Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:30.290Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409d2cc363b6735dc6a0b"
+  },
+  "authorName": "Rohit KVN",
+  "userId": {
+    "$oid": "656409d1cc363b6735dc69f0"
+  },
+  "recommendation": 1211,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:30.291Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:30.291Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409d2cc363b6735dc6a09"
+  },
+  "authorName": "Kalyani Pandey",
+  "userId": {
+    "$oid": "656409d1cc363b6735dc69f0"
+  },
+  "recommendation": 2180,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:30.291Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:30.291Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409d2cc363b6735dc6a0d"
+  },
+  "authorName": "Prarthna Sarkar",
+  "userId": {
+    "$oid": "656409d1cc363b6735dc69f0"
+  },
+  "recommendation": 2563,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:30.292Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:30.292Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409d3cc363b6735dc6a14"
+  },
+  "authorName": "Prakash Upadhyaya",
+  "userId": {
+    "$oid": "656409d2cc363b6735dc69fd"
+  },
+  "recommendation": 635,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:31.032Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:31.032Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409d3cc363b6735dc6a16"
+  },
+  "authorName": "Arka Sengupta",
+  "userId": {
+    "$oid": "656409d2cc363b6735dc69fd"
+  },
+  "recommendation": 3539,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:31.033Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:31.033Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409d3cc363b6735dc6a18"
+  },
+  "authorName": "Ashim Sunam",
+  "userId": {
+    "$oid": "656409d2cc363b6735dc69fd"
+  },
+  "recommendation": 2124,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:31.034Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:31.034Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409d3cc363b6735dc6a1a"
+  },
+  "authorName": "Shekhar H Hooli",
+  "userId": {
+    "$oid": "656409d2cc363b6735dc69fd"
+  },
+  "recommendation": 518,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:31.035Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:31.035Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409d3cc363b6735dc6a1e"
+  },
+  "authorName": "Mugdha Variyar",
+  "userId": {
+    "$oid": "656409d2cc363b6735dc69fd"
+  },
+  "recommendation": 2621,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:31.036Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:31.036Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409d3cc363b6735dc6a1c"
+  },
+  "authorName": "Mugdha Variyar",
+  "userId": {
+    "$oid": "656409d2cc363b6735dc69fd"
+  },
+  "recommendation": 3841,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:31.035Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:31.035Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409d3cc363b6735dc6a20"
+  },
+  "authorName": "Neha Singh",
+  "userId": {
+    "$oid": "656409d2cc363b6735dc69fd"
+  },
+  "recommendation": 2409,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:31.036Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:31.036Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409d3cc363b6735dc6a27"
+  },
+  "authorName": "Ankita Mehta",
+  "userId": {
+    "$oid": "656409d3cc363b6735dc6a12"
+  },
+  "recommendation": 826,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:31.748Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:31.748Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409d3cc363b6735dc6a2f"
+  },
+  "authorName": "Prakash Upadhyaya",
+  "userId": {
+    "$oid": "656409d3cc363b6735dc6a12"
+  },
+  "recommendation": 117,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:31.751Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:31.751Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409d3cc363b6735dc6a2d"
+  },
+  "authorName": "Suparno Sarkar",
+  "userId": {
+    "$oid": "656409d3cc363b6735dc6a12"
+  },
+  "recommendation": 3456,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:31.750Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:31.750Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409d3cc363b6735dc6a29"
+  },
+  "authorName": "Asmita Sarkar",
+  "userId": {
+    "$oid": "656409d3cc363b6735dc6a12"
+  },
+  "recommendation": 3900,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:31.749Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:31.749Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409d3cc363b6735dc6a2b"
+  },
+  "authorName": "Nicy V.P",
+  "userId": {
+    "$oid": "656409d3cc363b6735dc6a12"
+  },
+  "recommendation": 727,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:31.749Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:31.749Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409d3cc363b6735dc6a31"
+  },
+  "authorName": "Prakash Upadhyaya",
+  "userId": {
+    "$oid": "656409d3cc363b6735dc6a12"
+  },
+  "recommendation": 604,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:31.751Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:31.751Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409d3cc363b6735dc6a33"
+  },
+  "authorName": "Mugdha Variyar",
+  "userId": {
+    "$oid": "656409d3cc363b6735dc6a12"
+  },
+  "recommendation": 3367,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:31.752Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:31.752Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409d3cc363b6735dc6a39"
+  },
+  "authorName": "Mugdha Variyar",
+  "userId": {
+    "$oid": "656409d3cc363b6735dc6a12"
+  },
+  "recommendation": 2674,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:31.753Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:31.753Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409d3cc363b6735dc6a37"
+  },
+  "authorName": "Rohit KVN",
+  "userId": {
+    "$oid": "656409d3cc363b6735dc6a12"
+  },
+  "recommendation": 1480,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:31.753Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:31.753Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409d3cc363b6735dc6a3b"
+  },
+  "authorName": "Reuters",
+  "userId": {
+    "$oid": "656409d3cc363b6735dc6a12"
+  },
+  "recommendation": 3313,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:31.753Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:31.753Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656409d3cc363b6735dc6a35"
+  },
+  "authorName": "Shekhar H Hooli",
+  "userId": {
+    "$oid": "656409d3cc363b6735dc6a12"
+  },
+  "recommendation": 558,
+  "createdAt": {
+    "$date": "2023-11-27T03:15:31.752Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T03:15:31.752Z"
+  },
+  "__v": 0
+}]
